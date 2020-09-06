@@ -2,8 +2,8 @@ import { controller, get, post, put, del, permission, login } from '../../lib/ro
 import statusCode from '../../utils/status-code';
 import CDKService from '../service/cdk';
 // import { database } from '../../config/db-config';
-@controller('/cdk')
-export class UserController {
+@controller('/cron')
+export class cronController {
 	constructor() {}
     @get('/exchange')
 	async exchange(ctx) {

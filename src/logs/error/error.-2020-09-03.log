@@ -1,0 +1,203 @@
+[2020-09-03T20:06:01.231] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cron/addjob
+request client ip:  ::1
+request query:  {}
+response time: 1599134761230
+err name: ReferenceError
+err message: test is not defined
+err stack: ReferenceError: test is not defined
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/cron.js:9:12)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at cronService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at cronService.addjob (H:\fancy-gm-cp\src\app\service\cron.js:61:24)
+    at _callee$ (H:\fancy-gm-cp\src\app\controllers\/cron.js:10:34)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addjob (H:\fancy-gm-cp\src\app\controllers\cron.js:74:24)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee2$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-03T20:25:20.728] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cron/addjob
+request client ip:  ::1
+request query:  {}
+response time: 1599135920727
+err name: Error
+err message: Too few fields
+err stack: Error: Too few fields
+    at CronTime._parse (H:\fancy-gm-cp\node_modules\cron\lib\cron.js:418:11)
+    at new CronTime (H:\fancy-gm-cp\node_modules\cron\lib\cron.js:46:9)
+    at Object.time (H:\fancy-gm-cp\node_modules\cron\lib\cron.js:727:10)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/cron.js:11:31)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at cronService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at cronService.addjob (H:\fancy-gm-cp\src\app\service\cron.js:66:24)
+    at _callee$ (H:\fancy-gm-cp\src\app\controllers\/cron.js:10:34)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addjob (H:\fancy-gm-cp\src\app\controllers\cron.js:74:24)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee2$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+*************** error log end ***************
+
+[2020-09-03T20:26:57.621] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cron/addjob
+request client ip:  ::1
+request query:  {}
+response time: 1599136017621
+err name: Error
+err message: Too few fields
+err stack: Error: Too few fields
+    at CronTime._parse (H:\fancy-gm-cp\node_modules\cron\lib\cron.js:418:11)
+    at new CronTime (H:\fancy-gm-cp\node_modules\cron\lib\cron.js:46:9)
+    at Object.time (H:\fancy-gm-cp\node_modules\cron\lib\cron.js:727:10)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/cron.js:11:31)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at cronService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at cronService.addjob (H:\fancy-gm-cp\src\app\service\cron.js:67:24)
+    at _callee$ (H:\fancy-gm-cp\src\app\controllers\/cron.js:10:34)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addjob (H:\fancy-gm-cp\src\app\controllers\cron.js:74:24)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee2$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+*************** error log end ***************
+
+[2020-09-03T20:52:23.935] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cron/addjob?gameid=[1,2,3,45,6,8]
+request client ip:  ::1
+request query:  {"gameid":"[1,2,3,45,6,8]"}
+response time: 1599137543934
+err name: Error
+err message: ReferenceError: test is not defined
+err stack: Error: ReferenceError: test is not defined
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/cron.js:16:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at cronService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at cronService.addjob (H:\fancy-gm-cp\src\app\service\cron.js:75:24)
+    at _callee$ (H:\fancy-gm-cp\src\app\controllers\/cron.js:10:34)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addjob (H:\fancy-gm-cp\src\app\controllers\cron.js:75:24)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee2$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-03T21:04:26.570] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cron/addjob?gameid=[1,2,3,45,6,8]
+request client ip:  ::ffff:127.0.0.1
+request query:  {"gameid":"[1,2,3,45,6,8]"}
+response time: 1599138266570
+err name: Error
+err message: Error: WARNING: Date in past. Will never be fired.
+err stack: Error: Error: WARNING: Date in past. Will never be fired.
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/cron.js:18:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.throw (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+

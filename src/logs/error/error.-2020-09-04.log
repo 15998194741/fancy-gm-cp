@@ -1,0 +1,19 @@
+[2020-09-04T14:05:42.421] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cron/addjob?gameid=[1,2,3,45,6,8]
+request client ip:  ::1
+request query:  {"gameid":"[1,2,3,45,6,8]"}
+response time: 1599199542420
+err name: Error
+err message: Error: WARNING: Date in past. Will never be fired.
+err stack: Error: Error: WARNING: Date in past. Will never be fired.
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/cron.js:17:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.throw (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+

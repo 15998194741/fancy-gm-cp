@@ -11,7 +11,7 @@ class CDKService{
 		return res;
 	}
 	async cdkConvert(data){
-		let{ key } =data;
+		let{ key } = data;
 		let tableName = key.split('', 4).join('');
 		let sql = `select * from gm_cdk  cdk  where case 
 		when cdk.type = '1'
@@ -23,11 +23,12 @@ class CDKService{
 		});
 		if(dbres.length === 0){return '不存在';}
 		dbres = dbres[0];
-		let { type, start_time:startTime, end_time:endTime, annex} = dbres;
+		let { type, start_time:startTime, end_time:endTime, annex, status} = dbres;
 		let now = new Date(dayjs(new Date()).add(8, 'hour'));
 		startTime = new Date(startTime);
 		endTime = new Date(endTime);
 		if(!(now> startTime && endTime> now)){return '已过期';}
+		if(+status !== +1 ){return '已停用';}
 		let res ;
 		data['receive']= dayjs(now).format('YYYY-MM-DD HH:mm:ss'); 
 		switch (+type){
