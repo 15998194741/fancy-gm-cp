@@ -1,6 +1,6 @@
 import cors from './cors';
 import router from './router';
-import permission from './permission';
+// import permission from './permission';
 import interceptor from './interceptor';
 const koaBody = require('koa-body');
 
@@ -14,8 +14,11 @@ module.exports = (app) => {
 	// app.use(error());
 	app.use(koaBody({
 		multipart:true,
+		urlencoded:true,
+		text:true,
+		patchKoa:true,
+		json:true,
 		formidable:{
-			
 			maxFileSize:200*1024*1024
 		}
 	}));
@@ -26,17 +29,23 @@ module.exports = (app) => {
 			...ctx.request.body,
 			...ctx.query
 		  };
-		  await next();
-	});
-	app.use(async (ctx, next)=>{
-		for(let [key, value] of Object.entries(ctx.data)){
+		  for(let [key, value] of Object.entries(ctx.data)){
 			if(key.slice(-2) === '[]'){
-				ctx.data[key.slice(0, -2)] = value;
+				ctx.data[key.slice(0, -2)] = [value];
 			}
 			ctx.data[key] = value;
 		}
 		  await next();
 	});
+	// app.use(async (ctx, next)=>{
+	// 	for(let [key, value] of Object.entries(ctx.data)){
+	// 		if(key.slice(-2) === '[]'){
+	// 			ctx.data[key.slice(0, -2)] = value;
+	// 		}
+	// 		ctx.data[key] = value;
+	// 	}
+	// 	  await next();
+	// });
 	// app.use(permission());
 	router(app); // 加载路由中间件
 	// app.use(error);

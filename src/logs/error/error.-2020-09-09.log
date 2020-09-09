@@ -1,0 +1,164 @@
+[2020-09-09T14:20:53.495] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 1599632453494
+err name: SequelizeDatabaseError
+err message: 无效的整数类型输入语法: "undefined"
+err stack: SequelizeDatabaseError: 无效的整数类型输入语法: "undefined"
+    at Query.formatError (H:\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\fancy-gm-cp\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-09-09T14:21:01.738] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 1599632461738
+err name: SequelizeDatabaseError
+err message: 无效的整数类型输入语法: "undefined"
+err stack: SequelizeDatabaseError: 无效的整数类型输入语法: "undefined"
+    at Query.formatError (H:\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\fancy-gm-cp\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-09-09T16:18:32.110] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"16"}
+response time: 1599639512109
+err name: SyntaxError
+err message: Unexpected token u in JSON at position 0
+err stack: SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (H:\fancy-gm-cp\src\utils\/Cp.js:14:25)
+    at self.callback (H:\fancy-gm-cp\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:231:17)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:13:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:12:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:63:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T16:19:24.122] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599639564122
+err name: TypeError
+err message: Cannot read property 'ip' of undefined
+err stack: TypeError: Cannot read property 'ip' of undefined
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:33:9)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T16:19:44.679] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599639584678
+err name: TypeError
+err message: Cannot read property 'ip' of undefined
+err stack: TypeError: Cannot read property 'ip' of undefined
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:34:9)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T16:20:03.827] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599639603826
+err name: TypeError
+err message: Cannot read property 'ip' of undefined
+err stack: TypeError: Cannot read property 'ip' of undefined
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:35:9)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T16:21:12.676] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599639672676
+err name: TypeError
+err message: Cannot read property 'ip' of undefined
+err stack: TypeError: Cannot read property 'ip' of undefined
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:35:9)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+

@@ -1,0 +1,962 @@
+[2020-09-08T11:26:21.543] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll?gameid=1
+request client ip:  ::1
+request query:  {"gameid":"1"}
+response time: 1599535581542
+err name: TypeError
+err message: Cannot read property 'gameid' of undefined
+err stack: TypeError: Cannot read property 'gameid' of undefined
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/server.js:9:8)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.findAll (H:\fancy-gm-cp\src\app\service\server.js:70:25)
+    at _callee$ (H:\fancy-gm-cp\src\app\controllers\/server.js:11:33)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at findAll (H:\fancy-gm-cp\src\app\controllers\server.js:77:25)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee2$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T11:26:53.942] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findall?gameid=1
+request client ip:  ::1
+request query:  {"gameid":"1"}
+response time: 1599535613942
+err name: TypeError
+err message: Cannot read property 'gameid' of undefined
+err stack: TypeError: Cannot read property 'gameid' of undefined
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/server.js:9:8)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.findAll (H:\fancy-gm-cp\src\app\service\server.js:70:25)
+    at _callee$ (H:\fancy-gm-cp\src\app\controllers\/server.js:11:33)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at findAll (H:\fancy-gm-cp\src\app\controllers\server.js:77:25)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee2$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T11:27:54.391] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll?gameid=1
+request client ip:  ::1
+request query:  {"gameid":"1"}
+response time: 1599535674391
+err name: TypeError
+err message: Cannot read property 'gameid' of undefined
+err stack: TypeError: Cannot read property 'gameid' of undefined
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/server.js:9:8)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.findAll (H:\fancy-gm-cp\src\app\service\server.js:70:25)
+    at _callee$ (H:\fancy-gm-cp\src\app\controllers\/server.js:11:33)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at findAll (H:\fancy-gm-cp\src\app\controllers\server.js:77:25)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee2$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T11:36:43.681] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1599536203681
+err name: Error
+err message: 你这参数有毛病啊
+err stack: Error: 你这参数有毛病啊
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/server.js:10:34)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.findAll (H:\fancy-gm-cp\src\app\service\server.js:79:25)
+    at _callee$ (H:\fancy-gm-cp\src\app\controllers\/server.js:11:33)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at findAll (H:\fancy-gm-cp\src\app\controllers\server.js:77:25)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee2$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T11:55:13.427] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/setRedis?gameName=%E7%A9%BA%E7%BF%BC%E5%86%92%E9%99%A9%E5%9B%A2
+request client ip:  ::1
+request query:  {"gameName":"空翼冒险团"}
+response time: 1599537313426
+err name: SequelizeDatabaseError
+err message: 无效的整数类型输入语法: "undefined"
+err stack: SequelizeDatabaseError: 无效的整数类型输入语法: "undefined"
+    at Query.formatError (H:\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\fancy-gm-cp\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-09-08T12:09:34.400] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/setRedis?gameName=%E7%A9%BA%E7%BF%BC%E5%86%92%E9%99%A9%E5%9B%A2
+request client ip:  ::1
+request query:  {"gameName":"空翼冒险团"}
+response time: 1599538174400
+err name: SequelizeDatabaseError
+err message: 无效的整数类型输入语法: "undefined"
+err stack: SequelizeDatabaseError: 无效的整数类型输入语法: "undefined"
+    at Query.formatError (H:\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\fancy-gm-cp\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-09-08T12:36:28.347] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/setRedis?gameName=%E7%A9%BA%E7%BF%BC%E5%86%92%E9%99%A9%E5%9B%A2
+request client ip:  ::1
+request query:  {"gameName":"空翼冒险团"}
+response time: 1599539788346
+err name: SequelizeDatabaseError
+err message: 无效的整数类型输入语法: "undefined"
+err stack: SequelizeDatabaseError: 无效的整数类型输入语法: "undefined"
+    at Query.formatError (H:\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\fancy-gm-cp\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\fancy-gm-cp\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-09-08T14:48:17.738] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 1599547697736
+err name: TypeError
+err message: _config.dbSequelize.qyery is not a function
+err stack: TypeError: _config.dbSequelize.qyery is not a function
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:47:34)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.createServer (H:\fancy-gm-cp\src\app\service\server.js:197:30)
+    at _callee3$ (H:\fancy-gm-cp\src\app\controllers\/server.js:23:36)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createServer (H:\fancy-gm-cp\src\app\controllers\server.js:139:30)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T14:56:24.501] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"35"}
+response time: 1599548184500
+err name: TypeError
+err message: _config.dbSequelize.qyery is not a function
+err stack: TypeError: _config.dbSequelize.qyery is not a function
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:49:34)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.createServer (H:\fancy-gm-cp\src\app\service\server.js:212:30)
+    at _callee3$ (H:\fancy-gm-cp\src\app\controllers\/server.js:22:36)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createServer (H:\fancy-gm-cp\src\app\controllers\server.js:137:30)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T14:57:31.691] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer?gameName=%E7%A9%BA%E7%BF%BC%E5%86%92%E9%99%A9%E5%9B%A2
+request client ip:  ::1
+request body: 
+{"2":"3"}
+response time: 1599548251690
+err name: TypeError
+err message: _config.dbSequelize.qyery is not a function
+err stack: TypeError: _config.dbSequelize.qyery is not a function
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:49:34)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.createServer (H:\fancy-gm-cp\src\app\service\server.js:212:30)
+    at _callee3$ (H:\fancy-gm-cp\src\app\controllers\/server.js:22:36)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createServer (H:\fancy-gm-cp\src\app\controllers\server.js:137:30)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T14:58:10.738] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"36"}
+response time: 1599548290738
+err name: TypeError
+err message: _config.dbSequelize.qyery is not a function
+err stack: TypeError: _config.dbSequelize.qyery is not a function
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:49:34)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.createServer (H:\fancy-gm-cp\src\app\service\server.js:212:30)
+    at _callee3$ (H:\fancy-gm-cp\src\app\controllers\/server.js:22:36)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createServer (H:\fancy-gm-cp\src\app\controllers\server.js:137:30)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T15:00:20.317] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer?gameName=%E7%A9%BA%E7%BF%BC%E5%86%92%E9%99%A9%E5%9B%A2
+request client ip:  ::1
+request body: 
+{"id":"1"}
+response time: 1599548420316
+err name: TypeError
+err message: _config.dbSequelize.qyery is not a function
+err stack: TypeError: _config.dbSequelize.qyery is not a function
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:49:34)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.createServer (H:\fancy-gm-cp\src\app\service\server.js:212:30)
+    at _callee3$ (H:\fancy-gm-cp\src\app\controllers\/server.js:22:36)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createServer (H:\fancy-gm-cp\src\app\controllers\server.js:137:30)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T15:00:28.074] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer
+request client ip:  ::1
+request body: 
+{"id":"1"}
+response time: 1599548428074
+err name: TypeError
+err message: _config.dbSequelize.qyery is not a function
+err stack: TypeError: _config.dbSequelize.qyery is not a function
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:49:34)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.createServer (H:\fancy-gm-cp\src\app\service\server.js:212:30)
+    at _callee3$ (H:\fancy-gm-cp\src\app\controllers\/server.js:22:36)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createServer (H:\fancy-gm-cp\src\app\controllers\server.js:137:30)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T15:02:41.276] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer
+request client ip:  ::1
+request body: 
+{"id":"1"}
+response time: 1599548561276
+err name: TypeError
+err message: _config.dbSequelize.qyery is not a function
+err stack: TypeError: _config.dbSequelize.qyery is not a function
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:49:34)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.createServer (H:\fancy-gm-cp\src\app\service\server.js:212:30)
+    at _callee3$ (H:\fancy-gm-cp\src\app\controllers\/server.js:22:36)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createServer (H:\fancy-gm-cp\src\app\controllers\server.js:137:30)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T15:03:22.236] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"1"}
+response time: 1599548602235
+err name: TypeError
+err message: _config.dbSequelize.qyery is not a function
+err stack: TypeError: _config.dbSequelize.qyery is not a function
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:49:34)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.createServer (H:\fancy-gm-cp\src\app\service\server.js:212:30)
+    at _callee3$ (H:\fancy-gm-cp\src\app\controllers\/server.js:22:36)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createServer (H:\fancy-gm-cp\src\app\controllers\server.js:137:30)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T15:03:56.719] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer
+request client ip:  ::1
+request body: 
+{"id":"1"}
+response time: 1599548636719
+err name: TypeError
+err message: _config.dbSequelize.qyery is not a function
+err stack: TypeError: _config.dbSequelize.qyery is not a function
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:49:34)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.createServer (H:\fancy-gm-cp\src\app\service\server.js:202:30)
+    at _callee3$ (H:\fancy-gm-cp\src\app\controllers\/server.js:22:36)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createServer (H:\fancy-gm-cp\src\app\controllers\server.js:137:30)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T15:05:19.007] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"1"}
+response time: 1599548719004
+err name: TypeError
+err message: _config.dbSequelize.qyery is not a function
+err stack: TypeError: _config.dbSequelize.qyery is not a function
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:49:21)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.createServer (H:\fancy-gm-cp\src\app\service\server.js:201:30)
+    at _callee3$ (H:\fancy-gm-cp\src\app\controllers\/server.js:22:36)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createServer (H:\fancy-gm-cp\src\app\controllers\server.js:137:30)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T15:05:23.593] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"1"}
+response time: 1599548723593
+err name: TypeError
+err message: _config.dbSequelize.qyery is not a function
+err stack: TypeError: _config.dbSequelize.qyery is not a function
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:49:21)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.createServer (H:\fancy-gm-cp\src\app\service\server.js:201:30)
+    at _callee3$ (H:\fancy-gm-cp\src\app\controllers\/server.js:22:36)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createServer (H:\fancy-gm-cp\src\app\controllers\server.js:137:30)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T15:05:55.966] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer
+request client ip:  ::1
+request body: 
+{"id":"1"}
+response time: 1599548755965
+err name: TypeError
+err message: _config.dbSequelize.qyery is not a function
+err stack: TypeError: _config.dbSequelize.qyery is not a function
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:49:21)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.createServer (H:\fancy-gm-cp\src\app\service\server.js:201:30)
+    at _callee3$ (H:\fancy-gm-cp\src\app\controllers\/server.js:22:36)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createServer (H:\fancy-gm-cp\src\app\controllers\server.js:137:30)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T15:06:43.547] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer
+request client ip:  ::1
+request body: 
+{"id":"1"}
+response time: 1599548803546
+err name: TypeError
+err message: _config.dbSequelize.qyery is not a function
+err stack: TypeError: _config.dbSequelize.qyery is not a function
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:54:21)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at serverService.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at serverService.createServer (H:\fancy-gm-cp\src\app\service\server.js:209:30)
+    at _callee3$ (H:\fancy-gm-cp\src\app\controllers\/server.js:23:36)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createServer (H:\fancy-gm-cp\src\app\controllers\server.js:138:30)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+*************** error log end ***************
+
+[2020-09-08T15:12:32.990] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer
+request client ip:  ::1
+request body: 
+{"id":"1"}
+response time: 1599549152990
+err name: Error
+err message: Argument error, options.body.
+err stack: Error: Argument error, options.body.
+    at setContentLength (H:\fancy-gm-cp\node_modules\request\request.js:437:28)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:442:5)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at Function.post (H:\fancy-gm-cp\node_modules\request\index.js:61:12)
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:60:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-08T15:12:43.564] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/server/createServer
+request client ip:  ::1
+request body: 
+{"id":"1"}
+response time: 1599549163563
+err name: Error
+err message: Argument error, options.body.
+err stack: Error: Argument error, options.body.
+    at setContentLength (H:\fancy-gm-cp\node_modules\request\request.js:437:28)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:442:5)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at Function.post (H:\fancy-gm-cp\node_modules\request\index.js:61:12)
+    at _callee3$ (H:\fancy-gm-cp\src\app\service\/server.js:60:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-08T20:46:08.522] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1"}
+response time: 1599569168521
+err name: TypeError
+err message: Cannot read property 'body' of undefined
+err stack: TypeError: Cannot read property 'body' of undefined
+    at _callee$ (H:\fancy-gm-cp\src\app\controllers\/mail.js:10:26)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at immediate (H:\fancy-gm-cp\src\app\controllers\mail.js:76:27)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at H:\fancy-gm-cp\src\middleware\/index.js:27:2
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/interceptor.js:76:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
