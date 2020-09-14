@@ -162,3 +162,728 @@ err stack: TypeError: Cannot read property 'ip' of undefined
     at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
 *************** error log end ***************
 
+[2020-09-09T17:39:15.581] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599644355580
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:13:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:12:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:63:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T17:45:24.669] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599644724669
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:13:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:12:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:63:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T17:46:22.689] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599644782688
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:13:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:12:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:63:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T17:47:55.279] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599644875278
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:13:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:12:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:63:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T17:48:26.709] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599644906709
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:13:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:12:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:63:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T17:57:45.729] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599645465729
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:13:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:12:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:63:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T17:59:02.225] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599645542223
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:15:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:14:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:66:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T18:00:16.938] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599645616937
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:16:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:15:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:69:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T18:01:47.122] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599645707122
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:16:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:15:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:69:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T18:02:29.736] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599645749735
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at Function.post (H:\fancy-gm-cp\node_modules\request\index.js:61:12)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:16:12
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:15:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:69:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T18:02:47.322] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599645767322
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at Function.post (H:\fancy-gm-cp\node_modules\request\index.js:61:12)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:14:12
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:13:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:67:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T18:04:07.904] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599645847902
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:14:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:13:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:67:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T18:05:02.515] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599645902515
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:13:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:12:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:67:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T18:05:36.240] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599645936240
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:13:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:12:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:67:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T18:09:52.850] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599646192849
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:13:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:12:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:67:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T18:10:11.708] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599646211708
+err name: TypeError
+err message: source.on is not a function
+err stack: TypeError: source.on is not a function
+    at Function.DelayedStream.create (H:\fancy-gm-cp\node_modules\delayed-stream\lib\delayed_stream.js:33:10)
+    at FormData.CombinedStream.append (H:\fancy-gm-cp\node_modules\combined-stream\lib\combined_stream.js:45:37)
+    at FormData.append (H:\fancy-gm-cp\node_modules\form-data\lib\form_data.js:74:3)
+    at appendFormValue (H:\fancy-gm-cp\node_modules\request\request.js:326:21)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:334:13)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:13:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:12:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:67:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T18:15:26.388] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"21"}
+response time: 1599646526387
+err name: Error
+err message: Argument error, options.body.
+err stack: Error: Argument error, options.body.
+    at setContentLength (H:\fancy-gm-cp\node_modules\request\request.js:437:28)
+    at Request.init (H:\fancy-gm-cp\node_modules\request\request.js:442:5)
+    at new Request (H:\fancy-gm-cp\node_modules\request\request.js:127:8)
+    at request (H:\fancy-gm-cp\node_modules\request\index.js:53:10)
+    at H:\fancy-gm-cp\src\utils\/Cp.js:13:4
+    at new Promise (<anonymous>)
+    at _callee$ (H:\fancy-gm-cp\src\utils\/Cp.js:12:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Cp.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Cp.post (H:\fancy-gm-cp\src\utils\Cp.js:67:22)
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:36:13)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T19:29:27.273] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"16"}
+response time: 1599650967272
+err name: Error
+err message: connect ETIMEDOUT 123.57.86.38:12345
+err stack: Error: connect ETIMEDOUT 123.57.86.38:12345
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+*************** error log end ***************
+
+[2020-09-09T19:42:17.539] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"13"}
+response time: 1599651737538
+err name: TypeError
+err message: Cannot read property 'all' of undefined
+err stack: TypeError: Cannot read property 'all' of undefined
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:17:9)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T19:42:34.128] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"13"}
+response time: 1599651754128
+err name: TypeError
+err message: Cannot read property 'all' of undefined
+err stack: TypeError: Cannot read property 'all' of undefined
+    at _callee$ (H:\fancy-gm-cp\src\app\service\/mail.js:17:9)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-09-09T19:42:58.654] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"16"}
+response time: 1599651778654
+err name: Error
+err message: connect ETIMEDOUT 123.57.86.38:12345
+err stack: Error: connect ETIMEDOUT 123.57.86.38:12345
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+*************** error log end ***************
+
+[2020-09-09T19:43:33.747] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/immediate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"true","gameid":"1","id":"16"}
+response time: 1599651813747
+err name: Error
+err message: connect ETIMEDOUT 123.57.86.38:12345
+err stack: Error: connect ETIMEDOUT 123.57.86.38:12345
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+*************** error log end ***************
+

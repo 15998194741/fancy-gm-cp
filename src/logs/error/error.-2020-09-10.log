@@ -1,0 +1,42 @@
+[2020-09-10T10:43:57.490] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/timedMail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"theway":"1121","gameid":"1","id":"16"}
+response time: 1599705837489
+err name: Error
+err message: WARNING: Date in past. Will never be fired.
+err stack: Error: WARNING: Date in past. Will never be fired.
+    at CronTime.sendAt (H:\fancy-gm-cp\node_modules\cron\lib\cron.js:148:12)
+    at CronTime.getTimeout (H:\fancy-gm-cp\node_modules\cron\lib\cron.js:175:29)
+    at CronJob.start (H:\fancy-gm-cp\node_modules\cron\lib\cron.js:613:31)
+    at _callee$ (H:\fancy-gm-cp\src\config\/cron.js:13:18)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at crons.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at crons.add (H:\fancy-gm-cp\src\config\cron.js:83:21)
+    at mailCron._callee$ (H:\fancy-gm-cp\src\app\service\/mailcron.js:11:25)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mailCron.<anonymous> (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mailCron.addjob (H:\fancy-gm-cp\src\app\service\mailcron.js:81:24)
+    at _callee2$ (H:\fancy-gm-cp\src\app\service\/mail.js:56:28)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+

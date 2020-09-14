@@ -41,8 +41,6 @@ class serverService{
 		return true;
 	}
 
-
-
 	async createServer(data){
 		console.log(data);
 		let { id  } = data;

@@ -1,23 +1,28 @@
 const cronjob = require('cron').CronJob;
-const Sequelize = require('sequelize');
 let jobId = {};
 class crons{
 	constructor() {
 	}
-	async add(jobname, time, func,){
+	async add(jobname, time, func){
 		for(let i in jobId){
 			if(i === jobname){return false;} 
 		}
-		jobId[jobname] =  new cronjob(time, func, null, false, 'Asia/Shanghai'); 
+		let a  =  new cronjob(time, func, null, false, 'Asia/Shanghai'); 
+		// jobId[jobname].setTime(time);
+		jobId[jobname] = a;
+		console.log(jobname, '添加成功');
 		jobId[jobname].start(); 
 		return true;
 	}
 	async remove(jobname){
 		for(let i in jobId){
-			if(i === jobname){return false;} 
+			if(i === jobname){
+				jobId[jobname].stop();
+				delete jobId[jobname];
+				return true;
+			} 
 		}
-		jobId[jobname].stop(); 
-		return true;
+		return false;
 	}
 }
 export default new crons();

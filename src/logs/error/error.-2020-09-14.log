@@ -1,0 +1,47 @@
+[2020-09-14T17:44:08.777] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/white/create
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":"1"}
+response time: 1600076648777
+err name: TypeError
+err message: _white2.default.weekMail is not a function
+err stack: TypeError: _white2.default.weekMail is not a function
+    at _callee$ (H:\fancy-gm-cp\src\app\controllers\/white.js:10:36)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at create (H:\fancy-gm-cp\src\app\controllers\white.js:75:24)
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at next (H:\fancy-gm-cp\node_modules\koa-compose\index.js:45:18)
+    at H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-compose\index.js:44:32)
+    at H:\fancy-gm-cp\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\fancy-gm-cp\node_modules\koa-router\lib\router.js:351:31)
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/index.js:38:11)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at H:\fancy-gm-cp\src\middleware\/index.js:27:2
+    at next (H:\fancy-gm-cp\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\fancy-gm-cp\src\middleware\/interceptor.js:76:10)
+    at tryCatch (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
