@@ -14,7 +14,7 @@ class whiteService{
 		// 	replacements:['active'], type:Sequelize.QueryTypes.SELECT
 		// });
 		// whiteMron.addjob('', '0 0 0 1 * *');
-		whiteMron.weekMail();
+		whiteMron.weekMail('month');
 		
 
 	}

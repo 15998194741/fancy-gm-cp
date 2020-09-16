@@ -1,6 +1,7 @@
 import crons from '../../config/cron';
 import { dbSequelize } from '../../config';
 import Cp from '../../utils/Cp';
+import dayjs from 'dayjs';
 // import { months } from 'dayjs/locale/*';
 const Sequelize = require('sequelize');
 class mailCron{
@@ -42,7 +43,16 @@ class mailCron{
 			let annex = i['annex'];
 			let title = i['title'];
 			let text = i['text'];
+			// console.log('url:', url);
+			// console.log('i:', i);
 			await Cp.post(url, {annex, title, text});
+			let sql = `
+			insert into gm_white_recording 
+			(roleid,serverid,white_user_id,sendtime)
+			values
+			('${i['roleid']}','${i['serverid']}','${i['id']}','${dayjs(new Date()).format('YYYY-MM-DD HH:mm:ss')}')
+			`;
+			dbSequelize.query(sql);
 		}
 	}
 	// async addjob(data, sendTime){

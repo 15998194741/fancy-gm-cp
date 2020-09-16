@@ -10,7 +10,9 @@ class mailCron{
 			item.forEach(_item=>{
 				let { gameid, id, sendtime } = _item;
 				this.addjob({gameid, id}, sendtime);
+			
 			});
+			console.log('邮件定时发送任务启动成功');
 		});
 	}
 	async addjob(data, sendTime){
