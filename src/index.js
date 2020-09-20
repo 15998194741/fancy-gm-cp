@@ -9,12 +9,15 @@ app.use(json());
 // }));
 // 挂载全部的中间件
 require('./middleware')(app);
+let prod = 10001;
+let pord = 10002;
+require('./route')(app, pord);
 
-let prod = 5000;
-if (process.env.NODE_ENV === 'production') {
-	prod = process.env.PORT;
-	console.log('服务端部署，端口号为：', process.env.PORT);
-}
+
+// if (process.env.NODE_ENV === 'production') {
+// 	prod = process.env.PORT;
+// 	console.log('服务端部署，端口号为：', process.env.PORT);
+// }
 
 app.listen(prod, () => {
 	console.log('服务已经启动,请直接访问');

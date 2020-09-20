@@ -1,0 +1,25 @@
+[2020-09-19T13:24:41.818] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/client/findAll?1=222&2=3123123","resourceDesc":"","requestType":"POST","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[]},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-9-19 1:24:41 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-09-19T13:24:41.824] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/client/findAll?1=222&2=3123123","resourceDesc":"","requestType":"POST","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[]},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-9-19 1:24:41 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-09-19T13:24:44.297] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/client/findAll?1=222&2=3123123","resourceDesc":"","requestType":"POST","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[]},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-9-19 1:24:44 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-09-19T13:24:44.844] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/client/findAll?1=222&2=3123123","resourceDesc":"","requestType":"POST","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[]},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-9-19 1:24:44 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-09-19T13:24:45.767] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/client/findAll?1=222&2=3123123","resourceDesc":"","requestType":"POST","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[]},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-9-19 1:24:45 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+

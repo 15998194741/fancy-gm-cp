@@ -1,10 +1,11 @@
-import { controller, get, post, put, del, permission, login } from '../../lib/router-permission';
+import { controller, url } from  '../../route/import';
+// import { controller, get, post, put, del, permission, login } from '../../lib/router-permission';
 import statusCode from '../../utils/status-code';
 import cronService from '../service/cron';
 @controller('/cron')
 export class CronController {
 	constructor() {}
-	@get('/addjob')
+	@url({path:'/addjob', method:'get'})
 	async addjob(ctx) {
 		let { data } = ctx;
 		let res = await cronService.addjob(data);
@@ -16,7 +17,8 @@ export class CronController {
 		};
 	}
     
-    @get('/removejob')
+	
+	@url({path:'/removejob', method:'get'})
 	async removejob(ctx) {
     	// let data = ctx.query;
     	let res = await cronService.removejob();

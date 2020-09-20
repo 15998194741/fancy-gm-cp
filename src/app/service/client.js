@@ -9,7 +9,6 @@ class clientService{
 		let sql = ` 
         select * from gm_client where plaform @> '["${plaform}"]' and channel @> '["${channel}"]' and version_id = '${versionId}'
 `;
-
 		let res = await dbSequelize.query(sql, {
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT
 		});

@@ -1,12 +1,8 @@
-/**
-* @idemon: 创建与 2019/5/28
-* @auther: 杜宇 demonduyu@163.com
-* @function:
-*/
-const jwt = require('jsonwebtoken');
-const secret = require('../config/secret');
-const util = require('util');
-const verify = util.promisify(jwt.verify);
+
+// const jwt = require('jsonwebtoken');
+// const secret = require('../config/secret');
+// const util = require('util');
+// const verify = util.promisify(jwt.verify);
 const statusCode = require('../utils/status-code');
 const logsUtil = require('../utils/logs.js');
 
@@ -20,21 +16,7 @@ function getUserIp(req) {
 	return ip;
 }
 
-async function getUser(ctx) {
-	let token = ctx.request.headers['fancy-guo-login-token'];
-	if(token) {
-		try {
-			let user = await verify(token, secret.sign);
-			// 权限验证
-			if (user) {
-				ctx.user = user;
-				ctx.log.userId = user.id;
-			}
-		} catch (e) {
-			console.error(statusCode.ERROR_592('登录令牌失效，请退出后重新登录'));
-		}
-	}
-}
+
 // 请求日志白名单
 const logWhite = ['/api/wp/task/message/findByUserId'];
 /**
@@ -55,7 +37,6 @@ module.exports = function () {
 			responseCode:'', // 返回状态码
 			responseMessage:'', // 返回提示
 			responseDate:'', // 返回参数
-            
 			serverIp:'当前服务器id', // 当前服务器ip租房合同免费下载doc
 			userIp: getUserIp(ctx.request), // 用户ip地址
 			userId:null, // 用户url
@@ -69,7 +50,6 @@ module.exports = function () {
 			log.requestParams = JSON.stringify(ctx.request.body);
 		}
 		ctx.log = log;
-		// await getUser(ctx);
 		const start = new Date();
 		try {
 			await next();
@@ -100,7 +80,7 @@ module.exports = function () {
 		log.responseDate = ctx.body;
 		if (isLog) {
 		  // 是否存储日志
-			// logsUtil.info(log);
+			logsUtil.info(log);
 			console.info(`${ctx.method} ${ctx.url} - 执行时间 - ${intervals} ms - 源ip：${ctx.log.userIp}`);
 		}
 	};

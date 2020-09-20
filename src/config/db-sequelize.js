@@ -20,4 +20,7 @@ export const dbSequelize = new Sequelize(config.database, config.user, config.pa
 		// 字段以下划线（_）来分割（默认是驼峰命名风格）
 		'underscored': true
 	},
+	logging: (sql) => {
+		// console.log(sql);
+	}
 });

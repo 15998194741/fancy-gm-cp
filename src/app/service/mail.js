@@ -11,7 +11,6 @@ class MailService{
 		let allSql = `
         select all_server as all,annex,title,text  from gm_smtp where id = '${id}' and game_id = '${gameid}'
         `;
-
 		let allServer = await dbSequelize.query(allSql, {
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT
 		});

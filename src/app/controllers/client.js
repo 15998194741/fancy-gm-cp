@@ -1,14 +1,15 @@
-import { controller, get, post, put, del, permission, login } from '../../lib/router-permission';
+import { controller, url, router } from  '../../route/import';
 import statusCode from '../../utils/status-code';
 import clientService from '../service/client';
-// import { database } from '../../config/db-config';
 @controller('/client')
 export class cronController {
 	constructor() {}
-    @get('/findAll')
+    @router({path:'/findAll', method:['get', 'post']})
 	async findAll(ctx) {
 		let data = ctx.data;
+		console.log(data);
 		let res = await clientService.findAll(data);
 		ctx.body = statusCode.SUCCESS_200('查找成功', res);
+		return ctx.body;
 	}
 }

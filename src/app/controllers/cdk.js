@@ -1,11 +1,11 @@
-import { controller, get, post, put, del, permission, login } from '../../lib/router-permission';
+import { controller, url  } from '../../route/import';
 import statusCode from '../../utils/status-code';
 import CDKService from '../service/cdk';
 // import { database } from '../../config/db-config';
 @controller('/cdk')
 export class cronController {
 	constructor() {}
-    @get('/exchange')
+    @url({path:'/exchange', method:'get'})
 	async exchange(ctx) {
 		let data = ctx.data;
 		let res = await CDKService.exchange(data);
