@@ -3,6 +3,7 @@ const Sequelize = require('sequelize');
 import Redis from '../../config/redis';
 import Mongo from '../../config/mongo';
 import request from 'request';
+import Cp from '../../utils/Cp';
 class serverService{
 	constructor() {
 	}
@@ -55,7 +56,7 @@ class serverService{
 			url: `http://${ip}:12345/api/serverCreate`,
 			formData:{id}
 		};
-		request.post(req);
+		await Cp.post(req);
 		return true;
 	}
 

@@ -19,6 +19,7 @@ class Cp{
 				if(!error){
 					return resolve(JSON.parse(body));
 				}
+				// resolve({code:200});
 				reject(error);
 			});
 		}); 
