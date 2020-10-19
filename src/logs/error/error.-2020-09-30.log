@@ -1,0 +1,60 @@
+[2020-09-30T11:26:03.275] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cdk/exchange
+request client ip:  ::1
+request body: 
+{}
+response time: 1601436363275
+err name: BadRequestError
+err message: request aborted
+err stack: BadRequestError: request aborted
+    at IncomingMessage.onAborted (H:\致命代码\fancy-gm-cp\node_modules\raw-body\index.js:231:10)
+    at IncomingMessage.emit (events.js:315:20)
+    at abortIncoming (_http_server.js:532:9)
+    at socketOnEnd (_http_server.js:548:5)
+    at Socket.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+*************** error log end ***************
+
+[2020-09-30T11:26:03.496] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cdk/exchange
+request client ip:  ::1
+request body: 
+{}
+response time: 1601436363496
+err name: BadRequestError
+err message: request aborted
+err stack: BadRequestError: request aborted
+    at IncomingMessage.onAborted (H:\致命代码\fancy-gm-cp\node_modules\raw-body\index.js:231:10)
+    at IncomingMessage.emit (events.js:315:20)
+    at abortIncoming (_http_server.js:532:9)
+    at socketOnEnd (_http_server.js:548:5)
+    at Socket.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+*************** error log end ***************
+
+[2020-09-30T11:26:03.586] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cdk/exchange
+request client ip:  ::1
+request body: 
+{}
+response time: 1601436363586
+err name: BadRequestError
+err message: request aborted
+err stack: BadRequestError: request aborted
+    at IncomingMessage.onAborted (H:\致命代码\fancy-gm-cp\node_modules\raw-body\index.js:231:10)
+    at IncomingMessage.emit (events.js:315:20)
+    at abortIncoming (_http_server.js:532:9)
+    at socketOnEnd (_http_server.js:548:5)
+    at Socket.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+*************** error log end ***************
+

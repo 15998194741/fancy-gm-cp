@@ -43,7 +43,6 @@ class serverService{
 	}
 
 	async createServer(data){
-		console.log(data);
 		let { id  } = data;
 		let sql = `
 		select ip,id from gm_server where id = '${id}'
@@ -52,11 +51,12 @@ class serverService{
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT
 		});
 		let {ip} = sqlRes[0];
-		let req = {
-			url: `http://${ip}:12345/api/serverCreate`,
-			formData:{id}
-		};
-		await Cp.post(req);
+		// let req = {
+		// 	url: `http://${ip}:12345/api/serverCreate`,
+		// 	formData:{id}
+		// };
+		let url =  `http://${ip}:12345/api/serverCreate`;
+		await Cp.post(url, {id});
 		return true;
 	}
 

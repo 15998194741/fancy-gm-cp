@@ -21,6 +21,6 @@ export const dbSequelize = new Sequelize(config.database, config.user, config.pa
 		'underscored': true
 	},
 	logging: (sql) => {
-		// console.log(sql);
+		console.log(sql);
 	}
 });
