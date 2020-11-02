@@ -18,4 +18,11 @@ export class cronController {
     	ctx.body = statusCode.SUCCESS_200('查找成功', res);
     	return ctx.body;
     }
+	@router({path:'/stop', method:'get'})
+    async stop(ctx) {
+    	let data = ctx.data;
+    	let res = await ANNOService.stop(data);
+    	ctx.body = statusCode.SUCCESS_200('查找成功', res);
+    	return ctx.body;
+    }
 }

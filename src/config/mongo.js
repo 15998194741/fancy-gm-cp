@@ -42,7 +42,7 @@ class mongodb{
 				if (err) {
 					return reject(err);
 				} else {
-					return resolve(true, res);
+					return resolve([true, res]);
 				}
 			});
 		});

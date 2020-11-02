@@ -52,7 +52,7 @@ class orderService{
 	// 	});
 	// 	let {ip} = sqlRes[0];
 
-	// 	let url =  `http://${ip}:12345/api/serverCreate`;
+	// 	let url =  `http://${ip}/api/serverCreate`;
 	// 	await Cp.post(url, {id});
 	// 	return true;
 	// }
@@ -62,13 +62,13 @@ class orderService{
 			let { serverId } = data[i];
 			if(!serverId){break;}
 			let sql = `
-        select ip,id from gm_server where id = '${serverId}' and gameid = '${gameid}'
+        select ip,id,port from gm_server where id = '${serverId}' and gameid = '${gameid}'
         `;
 			let sqlRes = await dbSequelize.query(sql, {
 				replacements:['active'], type:Sequelize.QueryTypes.SELECT
 			});
-			let {ip} = sqlRes[0];
-			let url =  `http://${ip}:12345/api/Replenishment`;
+			let {ip, port} = sqlRes[0];
+			let url =  `http://${ip}:${port}/api/Replenishment`;
 			await Cp.post(url, {...i});
 		}
 		return true;

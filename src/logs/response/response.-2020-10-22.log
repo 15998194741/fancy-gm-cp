@@ -1,0 +1,5 @@
+[2020-10-22T11:41:22.740] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-10-22 11:41:22 ├F10: AM┤","executionTime":0}
+*************** log end ***************
+

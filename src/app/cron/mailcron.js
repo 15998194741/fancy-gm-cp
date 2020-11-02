@@ -47,7 +47,7 @@ class mailCron{
             `; 
 		}else{
 			sql =`
-            select * from (select ip from gm_server where servername in (select jsonb_array_elements_text(servername)  from gm_smtp where id ='${id}' and game_id = '${gameid}') and gameid = '${gameid}')  a group by ip
+            select * from (select ip,port from gm_server where servername in (select jsonb_array_elements_text(servername)  from gm_smtp where id ='${id}' and game_id = '${gameid}') and gameid = '${gameid}')  a group by ip
             `;
 		}
 		let  res = await dbSequelize.query(sql, {
@@ -60,7 +60,7 @@ class mailCron{
 			});
 		}
 		for(let i of res){
-			let url  = `http://${i['ip']}:12345/api/mail`;
+			let url  = `http://${i['ip']}:${i['port']}/api/mail`;
 			await Cp.post(url, {annex:annexs, title, text});
 		}
 		return;

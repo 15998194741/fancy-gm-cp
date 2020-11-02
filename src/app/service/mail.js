@@ -24,9 +24,12 @@ class MailService{
             `; 
 		}else{
 			sql =`
-            select * from (select ip from gm_server where servername in (select jsonb_array_elements_text(servername)  from gm_smtp where id ='${id}' and game_id = '${gameid}') and gameid = '${gameid}')  a group by ip
+			select * from (select id,ip,port from gm_server where servername in (select jsonb_array_elements_text(servername)  from gm_smtp where id ='${id}' and game_id = '${gameid}') and gameid = '${gameid}')  a 
+			union 
+			select * from (select id,ip,port from gm_server where servername in (select jsonb_array_elements_text(servername)  from gm_smtp where id ='${id}' and game_id = '${gameid}') and gameid = '${gameid}')  a 
             `;
 		}
+		
 		let  res = await dbSequelize.query(sql, {
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT
 		});
@@ -37,9 +40,12 @@ class MailService{
 			});
 		}
 		for(let i of res){
-			let url  = `http://${i['ip']}:12345/api/mail`;
+			let url  = `http://${i['ip']}:${i['port']}/api/mail`;
 			await Cp.post(url, {annex:annexs, title, text});
-		}
+		}	
+		await dbSequelize.query(`update gm_smtp set status = 0 where id = '${id}' `, {
+			replacements:['active'], type:Sequelize.QueryTypes.UPDATE
+		});
 		return;
 	}
 	async timedMail(data){
@@ -78,7 +84,7 @@ class MailService{
 		// 		sendtime = new Date(sendtime);
         
 		// 		for(let i of res){
-		// 			let url  = `http://${i['ip']}:12345/api/mail`;
+		// 			let url  = `http://${i['ip']}/api/mail`;
 		// 			await Cp.post(url, {annex:annexs, title, text});
 		// 		}
 		// 		return;

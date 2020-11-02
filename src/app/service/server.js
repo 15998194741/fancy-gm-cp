@@ -45,18 +45,19 @@ class serverService{
 	async createServer(data){
 		let { id  } = data;
 		let sql = `
-		select ip,id from gm_server where id = '${id}'
+		select * from gm_server where id = '${id}'
 		`;
 		let sqlRes = await dbSequelize.query(sql, {
-			replacements:['active'], type:Sequelize.QueryTypes.SELECT
+			replacements:['active'], type:Sequelize.QueryTypes.SELECT,
+			plain : true
 		});
-		let {ip} = sqlRes[0];
+		let {ip, port} = sqlRes;
 		// let req = {
 		// 	url: `http://${ip}:12345/api/serverCreate`,
 		// 	formData:{id}
 		// };
-		let url =  `http://${ip}:12345/api/serverCreate`;
-		await Cp.post(url, {id});
+		let url =  `http://${ip}:${port}/api/serverCreate`;
+		await Cp.post(url, sqlRes);
 		return true;
 	}
 

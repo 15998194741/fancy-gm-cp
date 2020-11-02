@@ -15,12 +15,12 @@ class CDKService{
 		if(!plaform || !(typeof plaform ==='string')){return '参数不合法';}
 		let plaformTest = plaform;
 		switch(plaform.toLowerCase()){
-			case '1':plaform = '安卓';break;
-			case '安卓':plaform = '安卓';break;
-			case 'android':plaform = '安卓'; break;
-			case '2':plaform = '苹果';break;
-			case '苹果':plaform = '苹果'; break;
-			case 'ios':plaform = '苹果'; break;
+			case '1':plaform = '安卓';plaformTest=1;break;
+			case '安卓':plaform = '安卓';plaformTest=1;break;
+			case 'android':plaform = '安卓'; plaformTest=1;break;
+			case '2':plaform = '苹果';plaformTest=2;break;
+			case '苹果':plaform = '苹果';plaformTest=2; break;
+			case 'ios':plaform = '苹果'; plaformTest=2;break;
 			default: return '参数不合法';
 		}
 		let tableName = key.split('', 4).join('');
@@ -35,8 +35,8 @@ class CDKService{
 		if(dbres.length === 0){return '不存在';}
 		dbres = dbres[0];
 		let { type, start_time:startTime, end_time:endTime, annex, status, channel:dbchannel, plaform:dbplaform} = dbres;
-		let channelTrue = dbchannel.find(item=> item === channel);
-		let plaformTrue = dbplaform.find(item=> item === plaformTest);
+		let channelTrue = dbchannel.some(item=> item === channel);
+		let plaformTrue = dbplaform.some(item=> +item === +plaformTest);
 		if(!channelTrue || !plaformTrue){return '非此平台兑换key';}
 		let now = new Date(dayjs(new Date()).add(8, 'hour'));
 		startTime = new Date(startTime);
@@ -58,13 +58,16 @@ class CDKService{
 		let { key }=data;
 		let datas = {};
 		for(let i in data){
-			if(i==='receive'){continue;}
+			if( i==='receive'){continue;}
 			datas[i] = data[i]; 
 		}
 		let res = await Mongo.findOne(key, {...datas});
 		if(!res){
-			await Mongo.insertData(key, {...data});
-			return true;
+			data['isUse'] =true;
+			data['receive']= dayjs(new Date()).format('YYYY-MM-DD HH:mm:ss'); 
+			let [a, b] = await Mongo.insertData(key, data);
+			console.log(b);
+			return a;
 		}
 		return false;
 	}

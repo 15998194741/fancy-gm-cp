@@ -14,15 +14,16 @@ class Cp{
 			// 	'Content-Type':'application/json; charset=utf-8'
 			// }
 		};
-		return new Promise((resolve, reject)=>{
+		let a = await  new Promise((resolve, reject)=>{
 			request(res, (error, response, body)=>{
 				if(!error){
 					return resolve(JSON.parse(body));
 				}
-				// resolve({code:200});
 				reject(error);
 			});
 		}); 
+		return a;
+		
 	
 
 	}

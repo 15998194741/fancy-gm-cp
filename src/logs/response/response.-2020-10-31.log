@@ -1,0 +1,20 @@
+[2020-10-31T18:15:01.284] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/mail/immediate","resourceDesc":"","requestType":"POST","responseCode":500,"responseMessage":"","responseDate":{"code":500,"message":"invalid input syntax for type integer: \"undefined\""},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-10-31 6:15:01 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-10-31T18:15:10.960] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/mail/immediate","resourceDesc":"","requestType":"POST","responseCode":500,"responseMessage":"","responseDate":{"code":500,"message":"invalid input syntax for type integer: \"undefined\""},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-10-31 6:15:10 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-10-31T18:15:38.083] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/mail/immediate","resourceDesc":"","requestType":"POST","responseCode":500,"responseMessage":"","responseDate":{"code":500,"message":"invalid input syntax for type integer: \"undefined\""},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-10-31 6:15:37 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-10-31T18:21:40.576] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/mail/immediate","resourceDesc":"","requestType":"POST","responseCode":500,"responseMessage":"","responseDate":{"code":500,"message":"invalid input syntax for type integer: \"undefined\""},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-10-31 6:21:40 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+

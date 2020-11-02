@@ -1,0 +1,225 @@
+[2020-11-02T19:51:08.444] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"参数不合法"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:51:08 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:51:25.216] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:51:24 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:51:29.242] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:51:29 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:51:31.001] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:51:30 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:51:38.779] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:51:38 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:51:43.593] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=%E5%AE%89%E5%8D%93","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"安卓\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:51:43 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:51:44.912] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=%E5%AE%89%E5%8D%93","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"安卓\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:51:44 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:51:46.912] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=%E5%AE%89%E5%8D%93","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"安卓\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:51:46 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:52:07.846] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=%E5%AE%89%E5%8D%93&channel=%E4%B9%85%E6%B8%B8","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"安卓\",\"channel\":\"久游\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:52:07 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:52:14.187] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=%E5%AE%89%E5%8D%93&channel=fancyguo","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"安卓\",\"channel\":\"fancyguo\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:52:14 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:52:21.527] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=%E5%AE%89%E5%8D%93&channel=fancyguo","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"安卓\",\"channel\":\"fancyguo\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:52:21 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:52:41.249] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=%E5%AE%89%E5%8D%93&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"安卓\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:52:41 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:53:03.511] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:53:03 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:53:04.338] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:53:04 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:53:05.366] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:53:05 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:53:06.600] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:53:06 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:53:57.182] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:53:57 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:53:59.632] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:53:59 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:54:31.940] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:54:31 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:55:04.304] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:55:03 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:56:23.239] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:56:22 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:56:57.861] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:56:57 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:57:04.766] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:57:04 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:57:08.468] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:57:08 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:57:11.411] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:57:11 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:57:13.000] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:57:12 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:58:52.612] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:58:52 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:58:53.146] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:58:53 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T19:59:58.158] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 7:59:58 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:00:38.713] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=android&channel=fancyguo&roleid=121654594564564654111123123","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"android\",\"channel\":\"fancyguo\",\"roleid\":\"121654594564564654111123123\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:00:38 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:00:55.993] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=121654594564564654111123123","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"121654594564564654111123123\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:00:55 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:01:41.777] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=121654594564564654111123123","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"121654594564564654111123123\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:01:41 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:02:24.972] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=121654594564564654111123123","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"121654594564564654111123123\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:02:24 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:02:43.698] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=121654594564564654111123123","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"121654594564564654111123123\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:02:43 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:03:48.600] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=121654594564564654111123123","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"121654594564564654111123123\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:03:48 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:05:59.526] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=121654594564564654111123123","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"121654594564564654111123123\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"cdk不存在"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:05:59 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:06:00.749] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=121654594564564654111123123","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"121654594564564654111123123\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"cdk不存在"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:06:00 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:06:06.234] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:06:05 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:06:08.475] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:06:08 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:06:10.659] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=3","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"3\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:06:10 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:06:12.820] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=4","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"4\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:06:12 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:07:22.484] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=4","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"4\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"cdk不存在"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:07:22 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:07:55.787] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=4","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"4\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"cdk不存在"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:07:55 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:08:00.928] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=5","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"5\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:08:00 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:08:53.590] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=6","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"6\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:08:53 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+

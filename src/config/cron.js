@@ -15,14 +15,23 @@ class crons{
 		return true;
 	}
 	async remove(jobname){
-		for(let i in jobId){
-			if(i === jobname){
-				jobId[jobname].stop();
-				delete jobId[jobname];
-				return true;
-			} 
+		let {[jobname]:job} = jobId;
+		try{
+			job.stop();
+		}catch (e){
+			return false;
 		}
-		return false;
+		delete jobId[jobname];
+		console.log(jobname, '删除成功');
+		return true;
+		// for(let i in jobId){
+		// 	if(i === jobname){
+		// 		jobId[jobname].stop();
+		// 		delete jobId[jobname];
+		// 		return true;
+		// 	} 
+		// }
+		// return false;
 	}
 }
 export default new crons();
