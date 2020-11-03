@@ -223,3 +223,283 @@
 日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=6","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"6\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:08:53 ├F10: PM┤","executionTime":0}
 *************** log end ***************
 
+[2020-11-02T20:10:22.439] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=6","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"6\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"cdk不存在"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:10:22 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:10:29.658] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=9","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"9\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:10:29 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:11:42.518] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=LfHEbYi3Pk&plaform=1&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"LfHEbYi3Pk\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":123123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:11:42 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:47:20.881] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"aPs6lWlTxk\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"1\"}","responseCode":500,"responseMessage":"Cannot read property 'aPs6lWlTxk' of undefined","responseDate":{"code":500,"message":"TypeError: Cannot read property 'aPs6lWlTxk' of undefined\n    at _callee$ (H:\\致命代码\\fancy-gm-cp\\src\\config\\/mongo.js:65:49)\n    at tryCatch (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at mongodb.<anonymous> (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12)\n    at mongodb.getConnection (H:\\致命代码\\fancy-gm-cp\\src\\config\\mongo.js:139:31)\n    at mongodb._callee4$ (H:\\致命代码\\fancy-gm-cp\\src\\config\\/mongo.js:121:30)\n    at tryCatch (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at mongodb.<anonymous> (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12)\n    at mongodb.findOne (H:\\致命代码\\fancy-gm-cp\\src\\config\\mongo.js:291:25)\n    at _callee3$ (H:\\致命代码\\fancy-gm-cp\\src\\app\\service\\/cdk.js:64:25)\n    at tryCatch (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:47:20 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:47:37.962] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"aPs6lWlTxk\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"1\"}","responseCode":500,"responseMessage":"Cannot read property 'aPs6lWlTxk' of undefined","responseDate":{"code":500,"message":"TypeError: Cannot read property 'aPs6lWlTxk' of undefined\n    at _callee$ (H:\\致命代码\\fancy-gm-cp\\src\\config\\/mongo.js:65:49)\n    at tryCatch (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at mongodb.<anonymous> (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12)\n    at mongodb.getConnection (H:\\致命代码\\fancy-gm-cp\\src\\config\\mongo.js:139:31)\n    at mongodb._callee4$ (H:\\致命代码\\fancy-gm-cp\\src\\config\\/mongo.js:121:30)\n    at tryCatch (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at mongodb.<anonymous> (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12)\n    at mongodb.findOne (H:\\致命代码\\fancy-gm-cp\\src\\config\\mongo.js:291:25)\n    at _callee3$ (H:\\致命代码\\fancy-gm-cp\\src\\app\\service\\/cdk.js:64:25)\n    at tryCatch (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:47:37 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:50:26.083] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"aPs6lWlTxk\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"1\"}","responseCode":500,"responseMessage":"Cannot read property 'aPs6lWlTxk' of undefined","responseDate":{"code":500,"message":"TypeError: Cannot read property 'aPs6lWlTxk' of undefined\n    at _callee$ (H:\\致命代码\\fancy-gm-cp\\src\\config\\/mongo.js:70:49)\n    at tryCatch (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:50:25 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:52:00.100] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"aPs6lWlTxk\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"1\"}","responseCode":500,"responseMessage":"Cannot read property 'aPs6lWlTxk' of undefined","responseDate":{"code":500,"message":"TypeError: Cannot read property 'aPs6lWlTxk' of undefined\n    at _callee$ (H:\\致命代码\\fancy-gm-cp\\src\\config\\/mongo.js:71:49)\n    at tryCatch (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:51:59 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:52:20.132] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"aPs6lWlTxk\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"1\"}","responseCode":500,"responseMessage":"Cannot read property 'aPs6lWlTxk' of undefined","responseDate":{"code":500,"message":"TypeError: Cannot read property 'aPs6lWlTxk' of undefined\n    at _callee$ (H:\\致命代码\\fancy-gm-cp\\src\\config\\/mongo.js:71:49)\n    at tryCatch (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:52:19 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:52:28.276] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"aPs6lWlTxk\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"1\"}","responseCode":500,"responseMessage":"Cannot read property 'aPs6lWlTxk' of undefined","responseDate":{"code":500,"message":"TypeError: Cannot read property 'aPs6lWlTxk' of undefined\n    at _callee$ (H:\\致命代码\\fancy-gm-cp\\src\\config\\/mongo.js:71:49)\n    at tryCatch (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:52:27 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:52:49.244] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"aPs6lWlTxk\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"1\"}","responseCode":500,"responseMessage":"Cannot read property 'aPs6lWlTxk' of undefined","responseDate":{"code":500,"message":"TypeError: Cannot read property 'aPs6lWlTxk' of undefined\n    at _callee$ (H:\\致命代码\\fancy-gm-cp\\src\\config\\/mongo.js:71:49)\n    at tryCatch (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:52:48 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:53:52.156] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"aPs6lWlTxk\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["礼包","5002"],"annexNumber":123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:53:48 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:54:08.951] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"aPs6lWlTxk\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["礼包","5002"],"annexNumber":123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:54:08 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:54:13.215] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"aPs6lWlTxk\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["礼包","5002"],"annexNumber":123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:54:12 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:55:13.424] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"aPs6lWlTxk\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["礼包","5002"],"annexNumber":123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:55:13 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:55:17.397] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"aPs6lWlTxk\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"cdk不存在"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:55:17 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:55:22.730] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=3","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"aPs6lWlTxk\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"3\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["礼包","5002"],"annexNumber":123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:55:22 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:55:25.428] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=4","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"aPs6lWlTxk\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"4\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["礼包","5002"],"annexNumber":123}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:55:25 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:58:09.204] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=jzEsAJvMWN&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=4","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"jzEsAJvMWN\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"4\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"已过期"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:58:09 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:58:12.767] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=jzEsAJvMWN&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"jzEsAJvMWN\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"已过期"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:58:12 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:58:48.129] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=izr9RsfXPc&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"izr9RsfXPc\",\"plaform\":\"1\",\"channel\":\"测试渠道二渠道\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:58:48 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:58:59.109] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=izr9RsfXPc&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%B8%89%E6%B8%A0%E9%81%93&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"izr9RsfXPc\",\"plaform\":\"1\",\"channel\":\"测试渠道三渠道\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":1}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:58:58 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T20:59:04.020] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=izr9RsfXPc&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%B8%89%E6%B8%A0%E9%81%93&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"izr9RsfXPc\",\"plaform\":\"1\",\"channel\":\"测试渠道三渠道\",\"roleid\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":1}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 8:59:03 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:01:35.777] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=izr9RsfXPc&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%B8%89%E6%B8%A0%E9%81%93&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"izr9RsfXPc\",\"plaform\":\"1\",\"channel\":\"测试渠道三渠道\",\"roleid\":\"2\"}","responseCode":500,"responseMessage":"Cannot read property 'izr9RsfXPc' of undefined","responseDate":{"code":500,"message":"TypeError: Cannot read property 'izr9RsfXPc' of undefined\n    at _callee$ (H:\\致命代码\\fancy-gm-cp\\src\\config\\/mongo.js:74:49)\n    at tryCatch (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:01:35 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:01:39.252] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=izr9RsfXPc&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%B8%89%E6%B8%A0%E9%81%93&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"izr9RsfXPc\",\"plaform\":\"1\",\"channel\":\"测试渠道三渠道\",\"roleid\":\"2\"}","responseCode":500,"responseMessage":"Cannot read property 'izr9RsfXPc' of undefined","responseDate":{"code":500,"message":"TypeError: Cannot read property 'izr9RsfXPc' of undefined\n    at _callee$ (H:\\致命代码\\fancy-gm-cp\\src\\config\\/mongo.js:74:49)\n    at tryCatch (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:01:39 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:01:50.942] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=izr9RsfXPc&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%B8%89%E6%B8%A0%E9%81%93&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"izr9RsfXPc\",\"plaform\":\"1\",\"channel\":\"测试渠道三渠道\",\"roleid\":\"2\"}","responseCode":500,"responseMessage":"Cannot read property 'izr9RsfXPc' of undefined","responseDate":{"code":500,"message":"TypeError: Cannot read property 'izr9RsfXPc' of undefined\n    at _callee$ (H:\\致命代码\\fancy-gm-cp\\src\\config\\/mongo.js:74:49)\n    at tryCatch (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:293:22)\n    at Generator.next (H:\\致命代码\\fancy-gm-cp\\node_modules\\regenerator-runtime\\runtime.js:118:21)\n    at asyncGeneratorStep (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (H:\\致命代码\\fancy-gm-cp\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:01:50 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:02:23.309] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=izr9RsfXPc&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%B8%89%E6%B8%A0%E9%81%93&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"izr9RsfXPc\",\"plaform\":\"1\",\"channel\":\"测试渠道三渠道\",\"roleid\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":1}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:02:23 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:02:27.470] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=izr9RsfXPc&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%B8%89%E6%B8%A0%E9%81%93&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"izr9RsfXPc\",\"plaform\":\"1\",\"channel\":\"测试渠道三渠道\",\"roleid\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":1}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:02:27 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:03:54.605] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=M4rNHyWHZI&plaform=1&channel=fancyfuo&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"M4rNHyWHZI\",\"plaform\":\"1\",\"channel\":\"fancyfuo\",\"roleid\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:03:54 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:04:00.414] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=M4rNHyWHZI&plaform=1&channel=fancyfuo&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"M4rNHyWHZI\",\"plaform\":\"1\",\"channel\":\"fancyfuo\",\"roleid\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"非此平台兑换key"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:04:00 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:04:10.126] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=M4rNHyWHZI&plaform=1&channel=fancyguo&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"M4rNHyWHZI\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["礼包","5002"],"annexNumber":1}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:04:09 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:04:11.672] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=M4rNHyWHZI&plaform=1&channel=fancyguo&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"M4rNHyWHZI\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"cdk不存在"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:04:11 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:04:14.534] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=M4rNHyWHZI&plaform=1&channel=fancyguo&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"M4rNHyWHZI\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"cdk不存在"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:04:14 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:04:17.066] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=M4rNHyWHZI&plaform=1&channel=fancyguo&roleid=3","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"M4rNHyWHZI\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"3\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["礼包","5002"],"annexNumber":1}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:04:16 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:04:54.127] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADhB3JApU&plaform=1&channel=fancyguo&roleid=3","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADhB3JApU\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"3\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["礼包","5002"],"annexNumber":12}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:04:53 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:04:56.741] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADhB3JApU&plaform=1&channel=fancyguo&roleid=3","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADhB3JApU\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"3\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"cdk不存在"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:04:56 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:04:58.089] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADhB3JApU&plaform=1&channel=fancyguo&roleid=3","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADhB3JApU\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"3\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"cdk不存在"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:04:57 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:05:01.224] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADhB3JApU&plaform=1&channel=fancyguo&roleid=31","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADhB3JApU\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"31\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"cdk不存在"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:05:00 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:05:03.711] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADhB3JApU&plaform=1&channel=fancyguo&roleid=31","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADhB3JApU\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"31\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"cdk不存在"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:05:03 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:05:12.209] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADh9VhKDT&plaform=1&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADh9VhKDT\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["礼包","5002"],"annexNumber":12}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:05:11 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:05:17.769] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADhUEszNJ&plaform=1&channel=fancyguo&roleid=1","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADhUEszNJ\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"1\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"cdk不存在"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:05:17 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:05:22.131] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADhUEszNJ&plaform=1&channel=fancyguo&roleid=2","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADhUEszNJ\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"2\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["礼包","5002"],"annexNumber":12}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:05:21 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:05:31.167] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADhNRe5LY&plaform=1&channel=fancyguo&roleid=3","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADhNRe5LY\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"3\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":"cdk不存在"},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:05:30 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:05:38.557] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADhNRe5LY&plaform=1&channel=fancyguo&roleid=4","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADhNRe5LY\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"4\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["礼包","5002"],"annexNumber":12}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:05:38 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:05:46.665] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADhyIePdS&plaform=1&channel=fancyguo&roleid=5","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADhyIePdS\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"5\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["礼包","5002"],"annexNumber":12}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:05:46 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:06:49.051] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADNhHIcsg&plaform=1&channel=fancyguo&roleid=5","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADNhHIcsg\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"5\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":2312}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:06:48 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:06:55.371] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADN6RfKsJ&plaform=1&channel=fancyguo&roleid=5","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADN6RfKsJ\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"5\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":2312}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:06:54 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:07:01.069] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADNm3WqCf&plaform=1&channel=fancyguo&roleid=5","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADNm3WqCf\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"5\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":2312}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:07:00 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:07:05.790] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADNWKf5M2&plaform=1&channel=fancyguo&roleid=5","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADNWKf5M2\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"5\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":2312}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:07:05 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:07:10.404] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADNIApGrm&plaform=1&channel=fancyguo&roleid=5","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADNIApGrm\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"5\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":2312}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:07:10 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:07:15.498] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADNUA9gA6&plaform=1&channel=fancyguo&roleid=5","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADNUA9gA6\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"5\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":2312}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:07:15 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:07:20.660] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADN0XEl3c&plaform=1&channel=fancyguo&roleid=5","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADN0XEl3c\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"5\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":2312}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:07:20 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:07:25.466] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADNZigxim&plaform=1&channel=fancyguo&roleid=5","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADNZigxim\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"5\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":2312}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:07:25 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:07:32.886] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADNAwdsOD&plaform=1&channel=fancyguo&roleid=5","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADNAwdsOD\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"5\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":2312}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:07:32 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:07:38.626] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADN2H2pP8&plaform=1&channel=fancyguo&roleid=5","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADN2H2pP8\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"5\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":2312}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:07:38 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:07:45.240] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADNUwQ45m&plaform=1&channel=fancyguo&roleid=5","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADNUwQ45m\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"5\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":2312}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:07:45 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-02T21:07:51.407] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?key=9ADNHqrs0w&plaform=1&channel=fancyguo&roleid=5","resourceDesc":"","requestType":"GET","requestParams":"{\"key\":\"9ADNHqrs0w\",\"plaform\":\"1\",\"channel\":\"fancyguo\",\"roleid\":\"5\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":0,"annexName":["特殊道具","9001"],"annexNumber":2312}]},"serverIp":"当前服务器id","userIp":"::1","userId":null,"createTime":"2020-11-2 9:07:51 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+

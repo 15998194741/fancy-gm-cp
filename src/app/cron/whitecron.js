@@ -6,8 +6,8 @@ import dayjs from 'dayjs';
 const Sequelize = require('sequelize');
 class mailCron{
 	 constructor() {
-		 crons.add('whitemonth', '0 0 0 1 * *',  this.weekMail.bind(this, 'month'));
-		 crons.add('whiteweek', '0 0 0 * * 1',  this.weekMail.bind(this, 'week'));
+		 crons.add('whitemonth月度邮件', '0 0 0 1 * *',  this.weekMail.bind(this, 'month'));
+		 crons.add('whiteweek周度邮件', '0 0 0 * * 1',  this.weekMail.bind(this, 'week'));
 	}
 	async start(){
 		console.log('白名单邮件启动成功');
@@ -33,7 +33,7 @@ class mailCron{
 		let sql = `
         with qwe as (select a.id,a.roleid,b.title,b.text,b.annex,b.cycle,b.sendtype from gm_white_user a join gm_white_smtp b on a.smtp_id =b.id  where a.status = '1' and cycle = '${data}' ),
         asd as (select jsonb_array_elements(roleid) ->> 'id'  as roleid ,jsonb_array_elements(roleid) ->> 'serverid'  as serverid ,id from qwe  ),
-        zxc as (select asd.*,a.ip,a.port from asd  join gm_server a on a.id = asd.serverid::int)
+        zxc as (select asd.*,a.ip,a.port from asd  join gm_server a on a.id = asd.serverid::int where a.status = 1)
         select zxc.*,qwe.title,qwe.text,qwe.annex from zxc join qwe on qwe.id = zxc.id`;
 		let res = await dbSequelize.query(sql, {
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT
@@ -45,7 +45,12 @@ class mailCron{
 			let text = i['text'];
 			// console.log('url:', url);
 			// console.log('i:', i);
-			await Cp.post(url, {annex, title, text});
+			try{
+				await Cp.post(url, {annex, title, text});
+
+			}catch (e){
+				console.log(e);
+			}
 			let sql = `
 			insert into gm_white_recording 
 			(roleid,serverid,white_user_id,sendtime)

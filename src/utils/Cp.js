@@ -14,14 +14,23 @@ class Cp{
 			// 	'Content-Type':'application/json; charset=utf-8'
 			// }
 		};
-		let a = await  new Promise((resolve, reject)=>{
-			request(res, (error, response, body)=>{
-				if(!error){
-					return resolve(JSON.parse(body));
-				}
-				reject(error);
-			});
-		}); 
+		let a ;
+		try{
+			 a = await  new Promise((resolve, reject)=>{
+				request(res, (error, response, body)=>{
+					if(!error){
+						try{
+							return resolve(JSON.parse(body));
+						}catch (e){
+							return resolve(body);
+						}
+					}
+					reject(error);
+				});
+			}).catch(e=>console.log(e)); 
+		}catch (e){
+			console.log(e);
+		}
 		return a;
 		
 	

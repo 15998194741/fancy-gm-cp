@@ -1,0 +1,224 @@
+[2020-11-02T20:47:20.876] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1
+request client ip:  ::1
+request query:  {"key":"aPs6lWlTxk","plaform":"1","channel":"测试渠道二渠道","roleid":"1"}
+response time: 1604321240873
+err name: TypeError
+err message: Cannot read property 'aPs6lWlTxk' of undefined
+err stack: TypeError: Cannot read property 'aPs6lWlTxk' of undefined
+    at _callee$ (H:\致命代码\fancy-gm-cp\src\config\/mongo.js:65:49)
+    at tryCatch (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.getConnection (H:\致命代码\fancy-gm-cp\src\config\mongo.js:139:31)
+    at mongodb._callee4$ (H:\致命代码\fancy-gm-cp\src\config\/mongo.js:121:30)
+    at tryCatch (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.findOne (H:\致命代码\fancy-gm-cp\src\config\mongo.js:291:25)
+    at _callee3$ (H:\致命代码\fancy-gm-cp\src\app\service\/cdk.js:64:25)
+    at tryCatch (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+*************** error log end ***************
+
+[2020-11-02T20:47:37.961] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1
+request client ip:  ::1
+request query:  {"key":"aPs6lWlTxk","plaform":"1","channel":"测试渠道二渠道","roleid":"1"}
+response time: 1604321257961
+err name: TypeError
+err message: Cannot read property 'aPs6lWlTxk' of undefined
+err stack: TypeError: Cannot read property 'aPs6lWlTxk' of undefined
+    at _callee$ (H:\致命代码\fancy-gm-cp\src\config\/mongo.js:65:49)
+    at tryCatch (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.getConnection (H:\致命代码\fancy-gm-cp\src\config\mongo.js:139:31)
+    at mongodb._callee4$ (H:\致命代码\fancy-gm-cp\src\config\/mongo.js:121:30)
+    at tryCatch (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.findOne (H:\致命代码\fancy-gm-cp\src\config\mongo.js:291:25)
+    at _callee3$ (H:\致命代码\fancy-gm-cp\src\app\service\/cdk.js:64:25)
+    at tryCatch (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+*************** error log end ***************
+
+[2020-11-02T20:50:26.078] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1
+request client ip:  ::1
+request query:  {"key":"aPs6lWlTxk","plaform":"1","channel":"测试渠道二渠道","roleid":"1"}
+response time: 1604321426078
+err name: TypeError
+err message: Cannot read property 'aPs6lWlTxk' of undefined
+err stack: TypeError: Cannot read property 'aPs6lWlTxk' of undefined
+    at _callee$ (H:\致命代码\fancy-gm-cp\src\config\/mongo.js:70:49)
+    at tryCatch (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-11-02T20:52:00.096] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1
+request client ip:  ::1
+request query:  {"key":"aPs6lWlTxk","plaform":"1","channel":"测试渠道二渠道","roleid":"1"}
+response time: 1604321520096
+err name: TypeError
+err message: Cannot read property 'aPs6lWlTxk' of undefined
+err stack: TypeError: Cannot read property 'aPs6lWlTxk' of undefined
+    at _callee$ (H:\致命代码\fancy-gm-cp\src\config\/mongo.js:71:49)
+    at tryCatch (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-11-02T20:52:20.129] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1
+request client ip:  ::1
+request query:  {"key":"aPs6lWlTxk","plaform":"1","channel":"测试渠道二渠道","roleid":"1"}
+response time: 1604321540128
+err name: TypeError
+err message: Cannot read property 'aPs6lWlTxk' of undefined
+err stack: TypeError: Cannot read property 'aPs6lWlTxk' of undefined
+    at _callee$ (H:\致命代码\fancy-gm-cp\src\config\/mongo.js:71:49)
+    at tryCatch (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-11-02T20:52:28.275] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1
+request client ip:  ::1
+request query:  {"key":"aPs6lWlTxk","plaform":"1","channel":"测试渠道二渠道","roleid":"1"}
+response time: 1604321548275
+err name: TypeError
+err message: Cannot read property 'aPs6lWlTxk' of undefined
+err stack: TypeError: Cannot read property 'aPs6lWlTxk' of undefined
+    at _callee$ (H:\致命代码\fancy-gm-cp\src\config\/mongo.js:71:49)
+    at tryCatch (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-11-02T20:52:49.241] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?key=aPs6lWlTxk&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%BA%8C%E6%B8%A0%E9%81%93&roleid=1
+request client ip:  ::1
+request query:  {"key":"aPs6lWlTxk","plaform":"1","channel":"测试渠道二渠道","roleid":"1"}
+response time: 1604321569241
+err name: TypeError
+err message: Cannot read property 'aPs6lWlTxk' of undefined
+err stack: TypeError: Cannot read property 'aPs6lWlTxk' of undefined
+    at _callee$ (H:\致命代码\fancy-gm-cp\src\config\/mongo.js:71:49)
+    at tryCatch (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-11-02T21:01:35.773] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?key=izr9RsfXPc&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%B8%89%E6%B8%A0%E9%81%93&roleid=2
+request client ip:  ::1
+request query:  {"key":"izr9RsfXPc","plaform":"1","channel":"测试渠道三渠道","roleid":"2"}
+response time: 1604322095772
+err name: TypeError
+err message: Cannot read property 'izr9RsfXPc' of undefined
+err stack: TypeError: Cannot read property 'izr9RsfXPc' of undefined
+    at _callee$ (H:\致命代码\fancy-gm-cp\src\config\/mongo.js:74:49)
+    at tryCatch (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-11-02T21:01:39.252] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?key=izr9RsfXPc&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%B8%89%E6%B8%A0%E9%81%93&roleid=2
+request client ip:  ::1
+request query:  {"key":"izr9RsfXPc","plaform":"1","channel":"测试渠道三渠道","roleid":"2"}
+response time: 1604322099252
+err name: TypeError
+err message: Cannot read property 'izr9RsfXPc' of undefined
+err stack: TypeError: Cannot read property 'izr9RsfXPc' of undefined
+    at _callee$ (H:\致命代码\fancy-gm-cp\src\config\/mongo.js:74:49)
+    at tryCatch (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-11-02T21:01:50.939] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?key=izr9RsfXPc&plaform=1&channel=%E6%B5%8B%E8%AF%95%E6%B8%A0%E9%81%93%E4%B8%89%E6%B8%A0%E9%81%93&roleid=2
+request client ip:  ::1
+request query:  {"key":"izr9RsfXPc","plaform":"1","channel":"测试渠道三渠道","roleid":"2"}
+response time: 1604322110938
+err name: TypeError
+err message: Cannot read property 'izr9RsfXPc' of undefined
+err stack: TypeError: Cannot read property 'izr9RsfXPc' of undefined
+    at _callee$ (H:\致命代码\fancy-gm-cp\src\config\/mongo.js:74:49)
+    at tryCatch (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:293:22)
+    at Generator.next (H:\致命代码\fancy-gm-cp\node_modules\regenerator-runtime\runtime.js:118:21)
+    at asyncGeneratorStep (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\致命代码\fancy-gm-cp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
