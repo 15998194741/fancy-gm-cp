@@ -1,6 +1,6 @@
 import { controller, url, router  } from '../../route/import';
 import statusCode from '../../utils/status-code';
-import orderService from '../service/Order';
+import orderService from '../service/Order.js';
 // import { database } from '../../config/db-config';
 
 @controller('/Order')
