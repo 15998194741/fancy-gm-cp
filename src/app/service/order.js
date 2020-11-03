@@ -5,8 +5,7 @@ import Mongo from '../../config/mongo';
 import request from 'request';
 import Cp from '../../utils/Cp';
 class orderService{
-	constructor() {
-	}
+	constructor() {}
 	// async findAll(data){
 	// 	let {gameid, gameName} = data;
 	// 	if(!gameid && !gameName){throw new Error('你这参数有毛病啊');}
