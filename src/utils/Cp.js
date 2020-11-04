@@ -28,8 +28,8 @@ class Cp{
 					reject(error);
 				});
 			}).catch(e=>console.log(e)); 
-		}catch (e){
-			console.log(e);
+		}catch ({message}){
+			throw {message};
 		}
 		return a;
 		

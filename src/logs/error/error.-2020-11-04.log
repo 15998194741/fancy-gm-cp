@@ -34,3 +34,15 @@ err stack: SequelizeDatabaseError: syntax error at or near "*"
     at processImmediate (internal/timers.js:456:21)
 *************** error log end ***************
 
+[2020-11-04T20:22:24.057] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll?gameName=KOG%E6%B5%8B%E8%AF%95&channelNum=9991&platform=1
+request client ip:  ::1
+request query:  {"gameName":"KOG测试","channelNum":"9991","platform":"1"}
+response time: 1604492544056
+err name: undefined
+err message: 缺少参数
+err stack: undefined
+*************** error log end ***************
+
