@@ -1,0 +1,96 @@
+[2020-11-05T10:59:39.509] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll?gameName=KOG%E6%B5%8B%E8%AF%95&channelNum=9991&platform=1
+request client ip:  ::1
+request query:  {"gameName":"KOG测试","channelNum":"9991","platform":"1"}
+response time: 1604545179508
+err name: undefined
+err message: 缺少参数
+err stack: undefined
+*************** error log end ***************
+
+[2020-11-05T10:59:52.088] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll?gameName=KOG%E6%B5%8B%E8%AF%95&channelNum=9991&platform=1
+request client ip:  ::1
+request query:  {"gameName":"KOG测试","channelNum":"9991","platform":"1"}
+response time: 1604545192088
+err name: undefined
+err message: 缺少参数
+err stack: undefined
+*************** error log end ***************
+
+[2020-11-05T11:00:22.485] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll?gameName=KOG%E6%B5%8B%E8%AF%95&channelNum=9991&platform=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"gameName":"KOG测试","channelNum":"9991","platform":"1"}
+response time: 1604545222484
+err name: undefined
+err message: 缺少参数
+err stack: undefined
+*************** error log end ***************
+
+[2020-11-05T11:00:23.008] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll?gameName=KOG%E6%B5%8B%E8%AF%95&channelNum=9991&platform=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"gameName":"KOG测试","channelNum":"9991","platform":"1"}
+response time: 1604545223008
+err name: undefined
+err message: 缺少参数
+err stack: undefined
+*************** error log end ***************
+
+[2020-11-05T11:00:23.430] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll?gameName=KOG%E6%B5%8B%E8%AF%95&channelNum=9991&platform=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"gameName":"KOG测试","channelNum":"9991","platform":"1"}
+response time: 1604545223429
+err name: undefined
+err message: 缺少参数
+err stack: undefined
+*************** error log end ***************
+
+[2020-11-05T11:00:23.704] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll?gameName=KOG%E6%B5%8B%E8%AF%95&channelNum=9991&platform=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"gameName":"KOG测试","channelNum":"9991","platform":"1"}
+response time: 1604545223704
+err name: undefined
+err message: 缺少参数
+err stack: undefined
+*************** error log end ***************
+
+[2020-11-05T11:00:24.032] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll?gameName=KOG%E6%B5%8B%E8%AF%95&channelNum=9991&platform=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"gameName":"KOG测试","channelNum":"9991","platform":"1"}
+response time: 1604545224032
+err name: undefined
+err message: 缺少参数
+err stack: undefined
+*************** error log end ***************
+
+[2020-11-05T11:00:24.384] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll?gameName=KOG%E6%B5%8B%E8%AF%95&channelNum=9991&platform=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"gameName":"KOG测试","channelNum":"9991","platform":"1"}
+response time: 1604545224384
+err name: undefined
+err message: 缺少参数
+err stack: undefined
+*************** error log end ***************
+

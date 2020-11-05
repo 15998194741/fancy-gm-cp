@@ -45,12 +45,12 @@ function findAll(gameName, platform, channelNum, versionId) {
             switch (_a.label) {
                 case 0:
                     sql = "\n    with qwe as ( select id from gm_game  where game_name = '" + gameName + "' and status = 1 ),\n            asd as (select channel  from gm_game_channel,qwe where  channel_id = '" + channelNum + "' and gameid  =  qwe.id and status = 1  ),\n            zxc as (select a.* ,'" + channelNum + "' as channelNum from gm_server a,asd  where  plaform @> '\"" + platform + "\"' and  a.channel @> concat('[\"' ,asd.channel,'\"]' )::jsonb and status = 1 ),\n            ert as  (select case when type = '\u6D4B\u8BD5' then '1' when type ='\u6B63\u5F0F' then '0' end  as test from (select jsonb_array_elements_text(is_show_type) as type from gm_client,qwe where game_id::int = qwe.id  and version_id =  '" + versionId + "') a )\n            select *,case when display = '1' then '\u7A7A\u95F2' when display = '2' then '\u7E41\u5FD9'when  display = '3' then '\u7EF4\u62A4'  when  display = '4' then '\u7206\u6EE1' end as \u663E\u793A\u72B6\u6001, case when display = '1' then '1' when display = '2' then '2'  when display = '3' then '4'  when  display = '4' then '3' end as show_status   from zxc where zxc.test in (select * from ert ) \n             ";
-                    return [4 /*yield*/, dbSequelize.query(sql, {
+                    return [4, dbSequelize.query(sql, {
                             replacements: ['active'], type: "SELECT"
                         })];
                 case 1:
                     res = _a.sent();
-                    return [2 /*return*/, res];
+                    return [2, res];
             }
         });
     });

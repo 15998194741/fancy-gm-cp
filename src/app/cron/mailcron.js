@@ -25,7 +25,7 @@ class mailCron{
 	async removejob(data){
 		let res = await crons.remove(`mail${data}`);
 		if(res){
-			await dbSequelize.query(`update gm_smtp set is_use = false where id = '${data}'`);
+			await dbSequelize.query(`update gm_smtp set is_use = false,status = 0 where id = '${data}'`);
 		}
 		return res;
 	}

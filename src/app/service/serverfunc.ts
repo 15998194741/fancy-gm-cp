@@ -1,4 +1,4 @@
-const { dbSequelize } = require('../../../config');
+const { dbSequelize } = require('../../config');
 
 interface findAllData{
         "id": number,
@@ -39,6 +39,7 @@ async function findAll(gameName:string,platform:string,channelNum:string,version
         replacements:['active'], type:"SELECT"
     });
     return res;
+    
 }
 
 export { findAll }

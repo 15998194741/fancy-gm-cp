@@ -11,8 +11,12 @@ class CDKService{
 		return res;
 	}
 	async cdkConvert(data){
-		let{ key, channel, plaform } = data;
-		if(!plaform || !(typeof plaform ==='string')){return '参数不合法';}
+		let{ key, channel, platform:plaform } = data;
+		let a = (message) => {
+			throw {message};
+		};
+		Object.keys(data).length === 4 ? '' :a('参数不正确');
+		if(!plaform || !(typeof plaform ==='string')){a('参数不合法');}
 		let plaformTest = plaform;
 		switch(plaform.toLowerCase()){
 			case '1':plaform = '安卓';plaformTest=1;break;
@@ -21,7 +25,8 @@ class CDKService{
 			case '2':plaform = '苹果';plaformTest=2;break;
 			case '苹果':plaform = '苹果';plaformTest=2; break;
 			case 'ios':plaform = '苹果'; plaformTest=2;break;
-			default: return '参数不合法';
+			default:
+				a('参数不合法');
 		}
 		let tableName = key.split('', 4).join('');
 		let sql = `select * from gm_cdk  cdk  where case 
@@ -34,7 +39,7 @@ class CDKService{
 		});
 		if(dbres.length === 0){return '不存在';}
 		dbres = dbres[0];
-		let { type, start_time:startTime, end_time:endTime, annex, status, channel:dbchannel, plaform:dbplaform} = dbres;
+		let { type, start_time:startTime, end_time:endTime, annex, status, channel:dbchannel, plaform:dbplaform, title, content} = dbres;
 		let channelTrue = dbchannel.some(item=> item === channel);
 		let plaformTrue = dbplaform.some(item=> +item === +plaformTest);
 		if(!channelTrue || !plaformTrue){return '非此平台兑换key';}
@@ -47,11 +52,17 @@ class CDKService{
 		data['receive']= dayjs(now).format('YYYY-MM-DD HH:mm:ss'); 
 		data['plaform'] = plaform;
 		switch (+type){
-			case +1 :  console.log('唯一cdk');res = await this.cdkOnlyOne(data);return res?annex:'cdk不存在';
-			case +2 :console.log('互斥cdk'); res = await this.cdkMutually(data);return res?annex:'cdk不存在';
-			case +3 :  console.log('通用cdk');res =  await this.cdkUniversal(data);return res?annex:'cdk不存在';
-			default:return 'cdk不存在';
+			case +1 :  console.log('唯一cdk');res = await this.cdkOnlyOne(data);break;
+			case +2 :console.log('互斥cdk'); res = await this.cdkMutually(data);break;
+			case +3 :  console.log('通用cdk');res =  await this.cdkUniversal(data);break;
+			default:
+				throw {message:'cdk不存在'};
 		}
+		return res?{
+			title,
+			text:content,
+			annex
+		}:a('cdk不存在');
 	}
 	//唯一cdk兑换
 	async cdkOnlyOne(data){
@@ -69,7 +80,7 @@ class CDKService{
 			console.log(b);
 			return a;
 		}
-		return false;
+		throw{message:'不存在'};
 	}
 	//互斥cdk兑换
 	async cdkMutually(data){
@@ -82,8 +93,6 @@ class CDKService{
 		}
 		res = await Mongo.updateData(tableName, {key, isUse}, {...data, isUse:true});
 		let {n} = res;
-		 
-		
 		return +n === 1;
 	}
 	//通用cdk兑换

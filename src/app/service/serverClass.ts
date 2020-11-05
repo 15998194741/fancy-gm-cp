@@ -1,15 +1,19 @@
 import { dbSequelize } from '../../config';
 const Sequelize = require('sequelize');
 import Redis from '../../config/redis';
-import Mongo from '../../config/mongo';
-import request from 'request';
 import Cp from '../../utils/Cp';
 import { findAll } from './serverfunc';
-
+interface FindAll{
+    gameName:string,
+    platform:string,
+    channelNum:string,
+    versionId:string,
+}
 class serverService{
 	constructor() {
-	}
-	async findAll(data){
+    }
+    
+	async findAll(data:FindAll){
 		let { gameName } = data;
 		let { platform } = data;
 		let { channelNum } = data;
@@ -18,10 +22,10 @@ class serverService{
 		if(!a){throw {message:'缺少参数'};}
 		let q = await Redis.get(`servername${gameName}${channelNum}${platform}${versionId}`);
 		if(q){return JSON.parse(q);}
-		let res= await findAll(gameName, platform, channelNum, versionId);
+		let res = await findAll(gameName, platform, channelNum, versionId);
 		return res;
 	}
-	async setRedis(data){
+	async setRedis(data:FindAll):Promise<boolean>{
 		let { gameName } = data;
 		let { platform } = data;
 		let { channelNum } = data;
