@@ -37,17 +37,17 @@ class CDKService{
 		let dbres = await dbSequelize.query(sql, {
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT
 		});
-		if(dbres.length === 0){return '不存在';}
+		if(dbres.length === 0){a('不存在');}
 		dbres = dbres[0];
 		let { type, start_time:startTime, end_time:endTime, annex, status, channel:dbchannel, plaform:dbplaform, title, content} = dbres;
 		let channelTrue = dbchannel.some(item=> item === channel);
 		let plaformTrue = dbplaform.some(item=> +item === +plaformTest);
-		if(!channelTrue || !plaformTrue){return '非此平台兑换key';}
+		if(!channelTrue || !plaformTrue){a('非此平台兑换key') ;}
 		let now = new Date(dayjs(new Date()).add(8, 'hour'));
 		startTime = new Date(startTime);
 		endTime = new Date(endTime);
-		if(!(now> startTime && endTime> now)){return '已过期';}
-		if(+status !== +1 ){return '已停用';}
+		if(!(now> startTime && endTime> now)){a('已过期');}
+		if(+status !== +1 ){a('已停用');}
 		let res ;
 		data['receive']= dayjs(now).format('YYYY-MM-DD HH:mm:ss'); 
 		data['plaform'] = plaform;
