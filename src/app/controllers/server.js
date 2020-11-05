@@ -28,4 +28,19 @@ export class UserController {
 		// return {code:100};
     	return ctx.body;
 	}
+
+	@url({path:'/ip', method:'get'})
+	async ip(ctx) {
+		const getIp = (req) =>{
+			return req.headers['x-forwarded-for'] || req.headers['x-real-ip'] ||req.socket.remoteAddress ||req.connection.remoteAddress; 
+		};
+		let ip = ctx.request.headers['X-Orig-IP'] ||  getIp(ctx.req) || ctx.ip || ctx.request.ip;
+		console.log(ip);
+		let data = ctx.data;
+		// let res = await serverService.createServer(data);
+    	// ctx.body = statusCode.SUCCESS_200('查找成功', res); 
+		// return {code:100};c
+		ctx.body = '1';
+    	return ctx.body;
+	}
 }
