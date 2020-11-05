@@ -29,20 +29,24 @@ class CDKService{
 				a('参数不合法');
 		}
 		let tableName = key.split('', 4).join('');
-		let sql = `select * from gm_cdk  cdk  where case 
-		when cdk.type = '1'
-		then cdk.cdkid = '${key}'
-		else cdk.cdkid = '${tableName}'
-		end `;
+		let sql = `	with qwe as (select * from gm_cdk  cdk  where case 
+			when cdk.type = '1'
+			then cdk.cdkid = '${key}'
+			else cdk.cdkid = '${tableName}'
+			end),
+			asd as (select channel_id from gm_game_channel as a ,qwe   where gameid = qwe.game_id and  qwe.channel @> concat('["' ,a.channel,'"]' )::jsonb GROUP BY a.channel_id),
+			zxc as (select  string_to_array(string_agg(channel_id::varchar,','),',')  as channelid from asd)
+			select * from zxc,qwe  `;
 		let dbres = await dbSequelize.query(sql, {
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT
 		});
 		if(dbres.length === 0){a('不存在');}
 		dbres = dbres[0];
-		let { type, start_time:startTime, end_time:endTime, annex, status, channel:dbchannel, plaform:dbplaform, title, content} = dbres;
-		let channelTrue = dbchannel.some(item=> item === channel);
+		let { type, start_time:startTime, end_time:endTime, annex, status, channel:dbchannel, plaform:dbplaform, title, content, channelid} = dbres;
+		let channelTrue = dbchannel.some(item=> item === channel );
+		let channelIdTrue = channelid.some(item=> item === channel );
 		let plaformTrue = dbplaform.some(item=> +item === +plaformTest);
-		if(!channelTrue || !plaformTrue){a('非此平台兑换key') ;}
+		if(!(channelTrue||channelIdTrue) || !plaformTrue){a('非此平台兑换key') ;}
 		let now = new Date(dayjs(new Date()).add(8, 'hour'));
 		startTime = new Date(startTime);
 		endTime = new Date(endTime);
