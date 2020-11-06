@@ -157,8 +157,8 @@
         "affectsGlobalScope": true
       },
       "./declaration.d.ts": {
-        "version": "1d8f12220b087d724e306434e1ab9fb26d210302e589ba533dcbbcf60d2ee919",
-        "signature": "1d8f12220b087d724e306434e1ab9fb26d210302e589ba533dcbbcf60d2ee919",
+        "version": "aacc5c4e2ae9df716387c68f62518b3a896be4c4002550a2d3d5387e30cd88a1",
+        "signature": "aacc5c4e2ae9df716387c68f62518b3a896be4c4002550a2d3d5387e30cd88a1",
         "affectsGlobalScope": false
       },
       "./mailfunc.ts": {
@@ -167,8 +167,8 @@
         "affectsGlobalScope": false
       },
       "./serverfunc.ts": {
-        "version": "6d52f572450c87c891772457005de73c33ed22f457469287df9e8a6b8d1ae411",
-        "signature": "b71db3ab45b5e3de703558d76a464542cc74bc6adec98b4f45b02125bbe6e733",
+        "version": "e64d8bb2a19a51053a66e6cc4a85acb17e0f9521fbe20f6ece88f84fed80238d",
+        "signature": "0ec2f7b6cd45e9cd2d0c4956df5432a8d170e220781d544e989bbaf7f53f1227",
         "affectsGlobalScope": false
       },
       "./serverclass.ts": {
@@ -2214,23 +2214,33 @@
       "../../../node_modules/@types/node/vm.d.ts",
       "../../../node_modules/@types/node/worker_threads.d.ts",
       "../../../node_modules/@types/node/zlib.d.ts",
-      [
-        "./declaration.d.ts",
-        [
-          {
-            "file": "./declaration.d.ts",
-            "start": 16,
-            "length": 14,
-            "messageText": "Ambient module declaration cannot specify relative module name.",
-            "category": 1,
-            "code": 2436
-          }
-        ]
-      ],
+      "./declaration.d.ts",
       "./funcjs/mailfunc.d.ts",
       "./funcjs/serverfunc.d.ts",
       "./mailfunc.ts",
-      "./serverclass.ts",
+      [
+        "./serverclass.ts",
+        [
+          {
+            "file": "./serverclass.ts",
+            "start": 749,
+            "length": 50,
+            "messageText": "Expected 5 arguments, but got 4.",
+            "category": 1,
+            "code": 2554,
+            "relatedInformation": [
+              {
+                "file": "./serverfunc.ts",
+                "start": 989,
+                "length": 9,
+                "messageText": "An argument for 'ip' was not provided.",
+                "category": 3,
+                "code": 6210
+              }
+            ]
+          }
+        ]
+      ],
       "./serverfunc.ts"
     ]
   },

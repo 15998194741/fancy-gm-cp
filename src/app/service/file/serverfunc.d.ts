@@ -25,5 +25,5 @@ interface findAllData {
     "显示状态": string;
     "show_status": string | number;
 }
-declare function findAll(gameName: string, platform: string, channelNum: string, versionId: string): Promise<findAllData[]>;
+declare function findAll(gameName: string, platform: string, channelNum: string, versionId: string, ip: string): Promise<findAllData[]>;
 export { findAll };

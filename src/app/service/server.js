@@ -9,19 +9,19 @@ import { findAll } from './serverfunc';
 class serverService{
 	constructor() {
 	}
-	async findAll(data){
+	async findAll(data, ip){
 		let { gameName } = data;
 		let { platform } = data;
 		let { channelNum } = data;
 		let { versionId } = data;
 		let a = gameName && platform && channelNum && versionId;
 		if(!a){throw {message:'缺少参数'};}
-		let q = await Redis.get(`servername${gameName}${channelNum}${platform}${versionId}`);
+		let q = await Redis.get(`servername${gameName}${channelNum}${platform}${versionId}${ip}`);
 		if(q){return JSON.parse(q);}
-		let res= await findAll(gameName, platform, channelNum, versionId);
+		let res= await findAll(gameName, platform, channelNum, versionId, ip);
 		return res;
 	}
-	async setRedis(data){
+	async setRedis(data, ip){
 		let { gameName } = data;
 		let { platform } = data;
 		let { channelNum } = data;
@@ -50,10 +50,14 @@ class serverService{
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT,
 			plain : true
 		});
-		let {ip, port} = sqlRes;
-		let url =  `http://${ip}:${port}/api/createServer`;
-		await Cp.post(url, sqlRes);
-		return true;
+		let {ip, port, serverid} = sqlRes;
+		let url =  `http://${ip}:${port}/gmswap/serverCreate?id=${serverid}`;
+		console.log(url);
+		let {code} = await Cp.get(url).catch(({message})=>{
+			return {code:600, message};
+		});
+		if(code !==200 ){return {code:600, message:'失败'};}
+		return {code:200};
 	}
 
 }

@@ -9,7 +9,11 @@ export class UserController {
 	async findAll(ctx) {
 		let data = ctx.data;
 		// console.log(ctx.data);
-		let res = await serverService.findAll(data);
+		const getIp = (req) =>{
+			return req.headers['x-forwarded-for'] || req.headers['x-real-ip'] ||req.socket.remoteAddress ||req.connection.remoteAddress; 
+		};
+		let ip = ctx.request.headers['X-Orig-IP'] ||  getIp(ctx.req) || ctx.ip || ctx.request.ip;
+		let res = await serverService.findAll(data, ip);
 		ctx.body = statusCode.SUCCESS_200('查找成功', res); 
 		return ctx.body;
 	}
@@ -23,8 +27,7 @@ export class UserController {
 	@router({path:'/createServer', method:'post'})
 	async createServer(ctx) {
 		let data = ctx.data;
-		let res = await serverService.createServer(data);
-    	ctx.body = statusCode.SUCCESS_200('查找成功', res); 
+    	ctx.body = await serverService.createServer(data);
 		// return {code:100};
     	return ctx.body;
 	}

@@ -1,4 +1,4 @@
-declare module  '../../config'{
-    const dbSequelize:any;
-    export {dbSequelize};
-}
+// declare module  '../../config'{
+//     const dbSequelize:any;
+//     export {dbSequelize};
+// }
