@@ -13,7 +13,7 @@ export class UserController {
 			return req.headers['x-forwarded-for'] || req.headers['x-real-ip'] ||req.socket.remoteAddress ||req.connection.remoteAddress; 
 		};
 		let ip = ctx.request.headers['X-Orig-IP'] ||  getIp(ctx.req) || ctx.ip || ctx.request.ip;
-		let res = await serverService.findAll(data, ip);
+		let res = await serverService.findAll(data, ip.replace(/(.+):([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/, '$2'));
 		ctx.body = statusCode.SUCCESS_200('查找成功', res); 
 		return ctx.body;
 	}
