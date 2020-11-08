@@ -16,8 +16,8 @@ class serverService{
 		let { versionId } = data;
 		let a = gameName && platform && channelNum && versionId;
 		if(!a){throw {message:'缺少参数'};}
-		let q = await Redis.get(`servername${gameName}${channelNum}${platform}${versionId}${ip}`);
-		if(q){return JSON.parse(q);}
+		// let q = await Redis.get(`servername${gameName}${channelNum}${platform}${versionId}${ip}`);
+		// if(q){return JSON.parse(q);}
 		let res= await findAll(gameName, platform, channelNum, versionId, ip);
 		return res;
 	}
