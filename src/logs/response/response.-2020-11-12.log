@@ -68,3 +68,43 @@
 日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-12 5:04:39 ├F10: PM┤","executionTime":0}
 *************** log end ***************
 
+[2020-11-12T17:06:12.537] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/anno/findAll?gameName=%E7%A9%BA%E7%BF%BC%E5%86%92%E9%99%A9%E5%9B%A2asdas","resourceDesc":"","requestType":"GET","requestParams":"{\"gameName\":\"空翼冒险团asdas\"}","responseCode":500,"responseMessage":"","responseDate":{"code":500},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-12 5:06:12 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-12T17:06:12.634] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-12 5:06:12 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-12T17:06:13.282] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/anno/findAll?gameName=%E7%A9%BA%E7%BF%BC%E5%86%92%E9%99%A9%E5%9B%A2asdas","resourceDesc":"","requestType":"GET","requestParams":"{\"gameName\":\"空翼冒险团asdas\"}","responseCode":500,"responseMessage":"","responseDate":{"code":500},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-12 5:06:13 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-12T17:06:13.438] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-12 5:06:13 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-12T17:06:15.887] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/anno/findAll?gameName=%E7%A9%BA%E7%BF%BC%E5%86%92%E9%99%A9%E5%9B%A2","resourceDesc":"","requestType":"GET","requestParams":"{\"gameName\":\"空翼冒险团\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":1,"status":1,"create_user_id":79,"update_user_id":null,"create_time":"2020-11-12T08:39:13.498Z","update_time":"2020-11-12T08:39:13.498Z","type":"2","end_time":null,"start_time":null,"anno_status":"2","title":"123","area_server_id":null,"client":[""],"plaform":[""],"game_id":1,"text":"1231233333333333333333333333333333333","time_interval":null,"img_url":"http://106.75.7.83/images/anno/1605170352952+1.png","weights":null,"link":"123","job_id":null,"bulletinid":"","servername":[""],"sendtime":1605170694000,"endtime":1605715200000,"range":"1","serverid":null}]},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-12 5:06:15 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-12T17:06:16.168] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-12 5:06:16 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-12T17:29:09.413] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/anno/findAll?gameName=%E7%A9%BA%E7%BF%BC%E5%86%92%E9%99%A9%E5%9B%A2","resourceDesc":"","requestType":"GET","requestParams":"{\"gameName\":\"空翼冒险团\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":[{"id":1,"status":1,"create_user_id":79,"update_user_id":null,"create_time":"2020-11-12T08:39:13.498Z","update_time":"2020-11-12T08:39:13.498Z","type":"2","end_time":null,"start_time":null,"anno_status":"2","title":"123","area_server_id":null,"client":[""],"plaform":[""],"game_id":1,"text":"1231233333333333333333333333333333333","time_interval":null,"img_url":"http://106.75.7.83/images/anno/1605170352952+1.png","weights":null,"link":"123","job_id":null,"bulletinid":"","servername":[""],"sendtime":1605170694000,"endtime":1605715200000,"range":"1","serverid":null}]},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-12 5:29:09 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-12T17:29:09.487] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-12 5:29:09 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+

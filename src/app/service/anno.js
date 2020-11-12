@@ -293,7 +293,7 @@ class ANNOService{
 	async findAll(data){
 		let { gameName } = data;
 		let sql = `  
-		select * from gm_announcement,(select id from gm_game where game_name ='${gameName}' ) a  
+		select gm_announcement.* from gm_announcement,(select id from gm_game where game_name ='${gameName}' ) a  
 		where range = '1' and 
 		game_id = a.id   and  
 		now() +'8:00' BETWEEN sendtime and endtime`;
