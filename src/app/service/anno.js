@@ -290,6 +290,24 @@ class ANNOService{
 		let res = await this.d({id});
 		return res; 
 	}
+	async findAll(data){
+		let { gameName } = data;
+		let sql = `  
+		select * from gm_announcement,(select id from gm_game where game_name ='${gameName}' ) a  
+		where range = '1' and 
+		game_id = a.id   and  
+		now() +'8:00' BETWEEN sendtime and endtime`;
+		let a =  await dbSequelize.query(sql, {
+			replacements:['active'], type:Sequelize.QueryTypes.SELECT
+		});
+		a.map(asd=>{
+			asd['sendtime'] = new Date(asd['sendtime']).getTime();
+			asd['endtime'] = new Date(asd['endtime']).getTime();
+			return asd;
+		});
+		if(!a.length)throw {code:500};
+		return a;
+	}
 }
 
 

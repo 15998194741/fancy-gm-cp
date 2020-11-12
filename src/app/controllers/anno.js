@@ -26,4 +26,11 @@ export class cronController {
     	ctx.body = statusCode.SUCCESS_200('查找成功', res);
     	return ctx.body;
     }
+	@router({path:'/findAll', method:'get'})
+	async findAll(ctx) {
+    	let data = ctx.data;
+    	let res = await ANNOService.findAll(data);
+    	ctx.body = statusCode.SUCCESS_200('查找成功', res);
+    	return ctx.body;
+	}
 }
