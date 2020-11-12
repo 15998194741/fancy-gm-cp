@@ -40,7 +40,7 @@ class MailService{
 			});
 		}
 		for(let i of res){
-			let url  = `http://${i['ip']}:${i['port']}/api/mail`;
+			let url  = `http://${i['ip']}:${i['port']}/gmswap/mail`;
 			await Cp.post(url, {annex:annexs, title, text});
 		}	
 		await dbSequelize.query(`update gm_smtp set status = 0 where id = '${id}' `, {
