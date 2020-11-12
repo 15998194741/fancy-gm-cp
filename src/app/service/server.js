@@ -43,6 +43,7 @@ class serverService{
 
 	async createServer(data){
 		let { id  } = data;
+		console.log(data);
 		let sql = `
 		select * from gm_server where id = '${id}'
 		`;
@@ -50,13 +51,20 @@ class serverService{
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT,
 			plain : true
 		});
-		let {ip, port, serverid} = sqlRes;
-		let url =  `http://${ip}:${port}/gmswap/serverCreate?id=${serverid}`;
-		console.log(url);
-		let {code} = await Cp.get(url).catch(({message})=>{
-			return {code:600, message};
-		});
-		if(code !==200 ){return {code:600, message:'失败'};}
+
+		let {ip, port, serverid, srttime} = sqlRes;
+	
+		let url =  `http://${ip}:${port}/gmswap/serverCreate?id=${serverid}&startTime=${srttime.getTime()}`;
+
+		const axios = require('axios');
+		let { data:{code} }  = await axios({
+			method: 'get',
+			url,
+			headers:{
+				Connection: 'close'
+			}
+		}).catch(()=>({data:{code:500}})); 
+		if(+code !== 200){	throw {message:'区服创建失败'};	}
 		return {code:200};
 	}
 

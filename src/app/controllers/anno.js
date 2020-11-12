@@ -16,6 +16,7 @@ export class cronController {
     	let data = ctx.data;
     	let res = await ANNOService.marquee(data);
     	ctx.body = statusCode.SUCCESS_200('查找成功', res);
+    	console.log(ctx.body);
     	return ctx.body;
     }
 	@router({path:'/stop', method:'get'})

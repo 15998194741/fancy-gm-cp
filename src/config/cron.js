@@ -7,6 +7,7 @@ class crons{
 		for(let i in jobId){
 			if(i === jobname){return false;} 
 		}
+		console.log(time);
 		let a  =  new cronjob(time, func, null, false, 'Asia/Shanghai'); 
 		// jobId[jobname].setTime(time);
 		jobId[jobname] = a;

@@ -7,27 +7,20 @@ class Cp{
 		let res = {
 			url,
 			method:methods || 'post',
+			headers:{
+				Connection: 'close'
+			},
 			body:{data:JSON.stringify(data)},
-			form :data
+			form :data,
+			data
 			// form:{data:JSON.stringify(data)},
 			// headers:{
 			// 	'Content-Type':'application/json; charset=utf-8'
 			// }
 		};
 		let a ;
-		
-			 a = await  new Promise((resolve, reject)=>{
-			request(res, (error, response, body)=>{
-				if(!error){
-					try{
-						return resolve(JSON.parse(body));
-					}catch (e){
-						return resolve(body);
-					}
-				}
-				reject(error);
-			});
-		}).catch(e=>console.log(e)); 
+		const axios = require('axios');
+			 a = await axios(res).catch(()=>({data:{code:500}}));  
 	
 		return a;
 		
