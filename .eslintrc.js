@@ -22,11 +22,7 @@ module.exports = {
     'no-tabs': 0,
     "no-const-assign": 2,
     'no-mixed-spaces-and-tabs': 0,
-    "indent": [
-      "error",
-      "tab",
-      { "SwitchCase": 1 }
-    ],
+      "indent": "off",
     "linebreak-style": [
       "error",
       "unix"

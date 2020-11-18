@@ -1,0 +1,16 @@
+{
+"compileOnSave": true, 
+  "compilerOptions": {
+  experimentalDecorators:true,
+    "module": "commonjs",
+    "target": "es6",
+    "lib": ["es6"],
+    "sourceMap": true£¬
+     "noImplicitAny": true,
+     "removeComments": true,
+     "preserveConstEnums": true,
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
