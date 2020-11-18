@@ -15,7 +15,7 @@ class CDKService{
 		let a = (message) => {
 			throw {message};
 		};
-		Object.keys(data).length === 4 ? '' :a('参数不正确');
+		/*Object.keys(data).length === 4 ? '' :a('参数不正确');*/
 		if(!plaform || !(typeof plaform ==='string')){a('参数不合法');}
 		let plaformTest = plaform;
 		switch(plaform.toLowerCase()){
