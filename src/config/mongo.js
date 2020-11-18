@@ -54,7 +54,7 @@ function addJsons(name, datas) {
 		});
 	});
 }
-connectPgWithoutPool();
+/*connectPgWithoutPool();*/
 // import cache from './redis-config.js';
 // const cache = require('../utils/cache-utils');
 
@@ -66,7 +66,7 @@ class mongodb{
      * @param table_name 表名
      */
 	async getConnection(table_name) {
-		await connectPgWithoutPool();
+		// await connectPgWithoutPool();
 		// console.log(tabConf);
 		let tableExist = MongoDbAction[table_name];
 		if(tableExist){ return tableExist; }
@@ -77,6 +77,7 @@ class mongodb{
 			roleid: 'String',
 			plaform: 'String',
 			channel: 'String',
+			accountid:'String',
 			receive: 'Date'
 		}, {
     		versionKey: false //去除： - -v

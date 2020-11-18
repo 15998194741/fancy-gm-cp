@@ -70,28 +70,22 @@ class CDKService{
 	}
 	//唯一cdk兑换
 	async cdkOnlyOne(data){
-		let { key }=data;
-		let datas = {};
-		for(let i in data){
-			if( i==='receive'){continue;}
-			datas[i] = data[i]; 
-		}
-		let res = await Mongo.findOne(key, {...datas});
+		let { key, accountid}=data;
+		let res = await Mongo.findOne(key, { accountid });
 		if(!res){
 			data['isUse'] =true;
 			data['receive']= dayjs(new Date()).format('YYYY-MM-DD HH:mm:ss'); 
-			let [a, b] = await Mongo.insertData(key, data);
-			console.log(b);
+			let [a] = await Mongo.insertData(key, data);
 			return a;
 		}
 		throw{message:'不存在'};
 	}
 	//互斥cdk兑换
 	async cdkMutually(data){
-		let {key, roleid} = data;
+		let { key, accountid} = data;
 		let tableName = key.split('', 4).join('');
 		let isUse = false;
-		let res = await Mongo.findOne(tableName, {roleid});
+		let res = await Mongo.findOne(tableName, {accountid});
 		if(res){
 			return false;
 		}
