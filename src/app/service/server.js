@@ -42,29 +42,25 @@ class serverService{
 	}
 
 	async createServer(data){
-		let { id  } = data;
-		console.log(data);
-		let sql = `
+		let {  ip, port, serverid, srttime } = data;
+		srttime = new Date(srttime);
+		/*let sql = `
 		select * from gm_server where id = '${id}'
 		`;
 		let sqlRes = await dbSequelize.query(sql, {
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT,
 			plain : true
-		});
-
-		let {ip, port, serverid, srttime} = sqlRes;
-	
+		});*/
 		let url =  `http://${ip}:${port}/gmswap/serverCreate?id=${serverid}&startTime=${srttime.getTime()}`;
-
 		const axios = require('axios');
-		let { data:{code} }  = await axios({
+		let res = await axios({
 			method: 'get',
 			url,
 			headers:{
 				Connection: 'close'
 			}
-		}).catch(()=>({data:{code:500}})); 
-		if(+code !== 200){	throw {message:'区服创建失败'};	}
+		}).catch(() => ({ data: { code: 500 } }));
+		if (+res?.data?.code !== 200) { throw { code: 500 , message:'区服创建失败'};	}
 		return {code:200};
 	}
 
