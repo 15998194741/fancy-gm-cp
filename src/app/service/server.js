@@ -51,7 +51,8 @@ class serverService{
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT,
 			plain : true
 		});*/
-		let url =  `http://${ip}:${port}/gmswap/serverCreate?id=${serverid}&startTime=${srttime.getTime()}`;
+		let url = `http://${ip}:${port}/gmswap/serverCreate?id=${serverid}&startTime=${srttime.getTime()}`;
+		console.log(url);
 		const axios = require('axios');
 		let res = await axios({
 			method: 'get',

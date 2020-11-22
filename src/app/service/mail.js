@@ -28,11 +28,12 @@ class MailService{
 			
 		}else{
 			sql =`
-			select * from (select id,ip,port from gm_server where servername in (select jsonb_array_elements_text(servername)  from gm_smtp where id ='${id}' and game_id = '${gameid}') and gameid = '${gameid}')  a 
+			select * from (select id,ip,port from gm_server where servername in (select jsonb_array_elements_text(servername)  from gm_smtp where id ='${id}' and game_id = '${gameid}') and gameid = '${gameid}' and status =1 )  a 
 			union 
-			select * from (select id,ip,port from gm_server where servername in (select jsonb_array_elements_text(servername)  from gm_smtp where id ='${id}' and game_id = '${gameid}') and gameid = '${gameid}')  a 
+			select * from (select id,ip,port from gm_server where servername in (select jsonb_array_elements_text(servername)  from gm_smtp where id ='${id}' and game_id = '${gameid}') and gameid = '${gameid}' and status =1 )  a 
 			`;
 			roleid = '';
+			console.log(sql);
 		}
 		
 		let  res = await dbSequelize.query(sql, {

@@ -19,7 +19,7 @@ class whiteService{
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT
 		});
 		for(let i of res){
-			let url =  `http://${i['ip']}:${i['port']}/api/mail`;
+			let url = `http://${i['ip']}:${i['port']}/gmswap/mail`;
 			let annex = i['annex'];
 			let title = i['title'];
 			let text = i['text'];
