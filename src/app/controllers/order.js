@@ -24,12 +24,13 @@ export class OrderController {
 			let { ip, port, serverid } = i;
 			let url = `http://${ip}:${port}/gmswap/repairpay`;
 			for(let j of value.filter(a => +a.serverId === +serverid)){
+				console.log(j);
 				let { data: resData } = await Cp.post(url, { orderid: j.tid }).catch(a => ({code:400}));
+				console.log(resData);
 				switch (+resData?.code) {
 					case 100: Req['100'].push(j); break;
 					case 200: Req['200'].push(j); break;
-					case 300 : Req['300'].push(j);break;
-					default:Req['400'].push(j);break;
+					default: Req['300'].push(j);break;
 				}
 			}
 		}
