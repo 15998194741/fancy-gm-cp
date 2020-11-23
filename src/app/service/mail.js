@@ -15,8 +15,6 @@ class MailService{
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT
 		});
 		let { all, annex, title, text, roleid, link} = allServer[0];
-		console.log(allServer);
-
 		let  sql;
 		if(!all){
 			sql =`
@@ -24,7 +22,6 @@ class MailService{
     asd as (select 		array_to_json(string_to_array(string_agg(roleid, ','),',')) as roleid ,serverid from qwe group by serverid ) 
    select string_to_array(string_agg(roleid,','),',') as roleid,ip,port from      (select json_array_elements_text(asd.roleid) as roleid,a.ip,a.port from  asd join gm_server a on a.serverid = asd.serverid where a.gameid = '${gameid}' ) a group by ip,port
 			`; 
-	
 			
 		}else{
 			sql =`
@@ -33,7 +30,6 @@ class MailService{
 			select * from (select id,ip,port from gm_server where servername in (select jsonb_array_elements_text(servername)  from gm_smtp where id ='${id}' and game_id = '${gameid}') and gameid = '${gameid}' and status =1 )  a 
 			`;
 			roleid = '';
-			console.log(sql);
 		}
 		
 		let  res = await dbSequelize.query(sql, {
@@ -45,13 +41,18 @@ class MailService{
 				annexs[ele['ID']]= ele['number'];
 			});
 		}
+		let callBackData = [];
 		for(let i of res){
 			let url  = `http://${i['ip']}:${i['port']}/gmswap/mail`;
-			await Cp.post(url, {annex:annexs, title, text, roleid, link});
+			let resssss = await Cp.post(url, {annex:annexs, title, text, roleid, link});
+			console.log({annex:annexs, title, text, roleid, link});
+			callBackData.push({...resssss?.data, id:i['id']});
+		
 		}	
-		await dbSequelize.query(`update gm_smtp set status = 0 where id = '${id}' `, {
-			replacements:['active'], type:Sequelize.QueryTypes.UPDATE
-		});
+
+			await dbSequelize.query(`update gm_smtp set status = 0,callback = '${JSON.stringify(callBackData)}' where id = '${id}' `, {
+				replacements:['active'], type:Sequelize.QueryTypes.UPDATE
+			});
 		return;
 	}
 	async timedMail(data){

@@ -78,7 +78,7 @@ class CDKService{
 			let [a] = await Mongo.insertData(key, data);
 			return a;
 		}
-		throw{message:'不存在'};
+		throw {message:'不存在'};
 	}
 	//互斥cdk兑换
 	async cdkMutually(data){

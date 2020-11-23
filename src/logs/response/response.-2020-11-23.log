@@ -1,0 +1,10 @@
+[2020-11-23T20:08:42.279] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?serverid=99983&channel=9991&roleid=1399983&platform=2&key=s5z5BJqpXn&accountid=99983|j","resourceDesc":"","requestType":"GET","requestParams":"{\"serverid\":\"99983\",\"channel\":\"9991\",\"roleid\":\"1399983\",\"platform\":\"2\",\"key\":\"s5z5BJqpXn\",\"accountid\":\"99983|j\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":{"title":"这是cdk邮件","text":"123","annex":[{"id":0,"annexName":["货币","5000001"],"annexNumber":100}]}},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:08:42 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:08:42.401] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:08:42 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+

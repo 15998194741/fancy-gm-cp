@@ -231,7 +231,6 @@ class mongodb{
      * 
      */
 	async addJson(name){
-		console.log('create');
 		addJsons(name, {
 			key: 'String',
 			isUse: 'Boolean',
