@@ -70,7 +70,7 @@ class CDKService{
 	}
 	//唯一cdk兑换
 	async cdkOnlyOne(data){
-		let { key, accountid}=data;
+		let { key, accountid }=data;
 		let res = await Mongo.findOne(key, { accountid });
 		if(!res){
 			data['isUse'] =true;

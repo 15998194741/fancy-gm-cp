@@ -1,0 +1,72 @@
+[2020-11-23T20:28:09.225] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?serverid=99983&channel=9991&roleid=1399983&platform=2&key=s5z5BJqpXn&accountid=99983|j
+request client ip:  ::ffff:127.0.0.1
+request query:  {"serverid":"99983","channel":"9991","roleid":"1399983","platform":"2","key":"s5z5BJqpXn","accountid":"99983|j"}
+response time: 1606134489223
+err name: undefined
+err message: 不存在
+err stack: undefined
+*************** error log end ***************
+
+[2020-11-23T20:46:27.199] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?serverid=99983&channel=9991&roleid=1399983&platform=2&key=%E9%98%BF%E4%B8%89%E5%A4%A7%E8%8B%8F%E6%89%93&accountid=99983|j
+request client ip:  ::ffff:127.0.0.1
+request query:  {"serverid":"99983","channel":"9991","roleid":"1399983","platform":"2","key":"阿三大苏打","accountid":"99983|j"}
+response time: 1606135587199
+err name: undefined
+err message: 不存在
+err stack: undefined
+*************** error log end ***************
+
+[2020-11-23T20:46:52.981] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?serverid=99983&channel=9991&roleid=1399983&platform=2&key=s5z5BJqpXn&accountid=99983|j
+request client ip:  ::ffff:127.0.0.1
+request query:  {"serverid":"99983","channel":"9991","roleid":"1399983","platform":"2","key":"s5z5BJqpXn","accountid":"99983|j"}
+response time: 1606135612981
+err name: undefined
+err message: 不存在
+err stack: undefined
+*************** error log end ***************
+
+[2020-11-23T20:46:55.406] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?serverid=99983&channel=9991&roleid=1399983&platform=2&key=s5z5BJqpXn&accountid=99983|j
+request client ip:  ::ffff:127.0.0.1
+request query:  {"serverid":"99983","channel":"9991","roleid":"1399983","platform":"2","key":"s5z5BJqpXn","accountid":"99983|j"}
+response time: 1606135615406
+err name: undefined
+err message: 不存在
+err stack: undefined
+*************** error log end ***************
+
+[2020-11-23T20:46:57.522] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?serverid=99983&channel=9991&roleid=1399983&platform=2&key=s5z5BJqpXn&accountid=99983|j
+request client ip:  ::ffff:127.0.0.1
+request query:  {"serverid":"99983","channel":"9991","roleid":"1399983","platform":"2","key":"s5z5BJqpXn","accountid":"99983|j"}
+response time: 1606135617522
+err name: undefined
+err message: 不存在
+err stack: undefined
+*************** error log end ***************
+
+[2020-11-23T20:47:04.224] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?serverid=99983&channel=9991&roleid=1399983&platform=2&key=s5z5BJqpXn&accountid=99983|j
+request client ip:  ::ffff:127.0.0.1
+request query:  {"serverid":"99983","channel":"9991","roleid":"1399983","platform":"2","key":"s5z5BJqpXn","accountid":"99983|j"}
+response time: 1606135624224
+err name: undefined
+err message: 不存在
+err stack: undefined
+*************** error log end ***************
+

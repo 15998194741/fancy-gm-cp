@@ -18,3 +18,88 @@
 日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:16:53 ├F10: PM┤","executionTime":0}
 *************** log end ***************
 
+[2020-11-23T20:28:09.227] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?serverid=99983&channel=9991&roleid=1399983&platform=2&key=s5z5BJqpXn&accountid=99983|j","resourceDesc":"","requestType":"GET","requestParams":"{\"serverid\":\"99983\",\"channel\":\"9991\",\"roleid\":\"1399983\",\"platform\":\"2\",\"key\":\"s5z5BJqpXn\",\"accountid\":\"99983|j\"}","responseCode":500,"responseMessage":"不存在","responseDate":{"code":500,"message":"不存在"},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:28:09 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:28:09.326] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:28:09 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:28:15.199] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?serverid=99983&channel=9991&roleid=1399983&platform=2&key=666&accountid=99983|j","resourceDesc":"","requestType":"GET","requestParams":"{\"serverid\":\"99983\",\"channel\":\"9991\",\"roleid\":\"1399983\",\"platform\":\"2\",\"key\":\"666\",\"accountid\":\"99983|j\"}","responseCode":200,"responseMessage":"","responseDate":{"code":200,"message":"查找成功","data":{"title":"这是cdk兑换","text":"唯一cdk兑换","annex":[{"id":0,"annexName":["货币","5000003"],"annexNumber":1000000}]}},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:28:15 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:28:15.256] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:28:15 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:42:19.882] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:42:19 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:46:23.596] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:46:23 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:46:27.200] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?serverid=99983&channel=9991&roleid=1399983&platform=2&key=%E9%98%BF%E4%B8%89%E5%A4%A7%E8%8B%8F%E6%89%93&accountid=99983|j","resourceDesc":"","requestType":"GET","requestParams":"{\"serverid\":\"99983\",\"channel\":\"9991\",\"roleid\":\"1399983\",\"platform\":\"2\",\"key\":\"阿三大苏打\",\"accountid\":\"99983|j\"}","responseCode":500,"responseMessage":"不存在","responseDate":{"code":500,"message":"不存在"},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:46:27 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:46:27.249] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:46:27 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:46:52.982] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?serverid=99983&channel=9991&roleid=1399983&platform=2&key=s5z5BJqpXn&accountid=99983|j","resourceDesc":"","requestType":"GET","requestParams":"{\"serverid\":\"99983\",\"channel\":\"9991\",\"roleid\":\"1399983\",\"platform\":\"2\",\"key\":\"s5z5BJqpXn\",\"accountid\":\"99983|j\"}","responseCode":500,"responseMessage":"不存在","responseDate":{"code":500,"message":"不存在"},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:46:52 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:46:53.039] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:46:53 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:46:55.407] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?serverid=99983&channel=9991&roleid=1399983&platform=2&key=s5z5BJqpXn&accountid=99983|j","resourceDesc":"","requestType":"GET","requestParams":"{\"serverid\":\"99983\",\"channel\":\"9991\",\"roleid\":\"1399983\",\"platform\":\"2\",\"key\":\"s5z5BJqpXn\",\"accountid\":\"99983|j\"}","responseCode":500,"responseMessage":"不存在","responseDate":{"code":500,"message":"不存在"},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:46:55 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:46:55.447] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:46:55 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:46:57.522] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?serverid=99983&channel=9991&roleid=1399983&platform=2&key=s5z5BJqpXn&accountid=99983|j","resourceDesc":"","requestType":"GET","requestParams":"{\"serverid\":\"99983\",\"channel\":\"9991\",\"roleid\":\"1399983\",\"platform\":\"2\",\"key\":\"s5z5BJqpXn\",\"accountid\":\"99983|j\"}","responseCode":500,"responseMessage":"不存在","responseDate":{"code":500,"message":"不存在"},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:46:57 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:46:57.565] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:46:57 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:47:04.224] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"/api/cdk/exchange?serverid=99983&channel=9991&roleid=1399983&platform=2&key=s5z5BJqpXn&accountid=99983|j","resourceDesc":"","requestType":"GET","requestParams":"{\"serverid\":\"99983\",\"channel\":\"9991\",\"roleid\":\"1399983\",\"platform\":\"2\",\"key\":\"s5z5BJqpXn\",\"accountid\":\"99983|j\"}","responseCode":500,"responseMessage":"不存在","responseDate":{"code":500,"message":"不存在"},"serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:47:04 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T20:47:04.265] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 8:47:04 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+
+[2020-11-23T21:10:02.322] [INFO] resLogger - 
+*************** log start ***************
+日志记录：{"resourceUrl":"","resourceDesc":"","requestType":"GET","requestParams":"{}","responseCode":"","responseMessage":"","responseDate":"请求异常，请求接口不存在 或 响应返回！！！","serverIp":"当前服务器id","userIp":"::ffff:127.0.0.1","userId":null,"createTime":"2020-11-23 9:10:02 ├F10: PM┤","executionTime":0}
+*************** log end ***************
+

@@ -167,7 +167,7 @@
         "affectsGlobalScope": false
       },
       "./serverfunc.ts": {
-        "version": "e64d8bb2a19a51053a66e6cc4a85acb17e0f9521fbe20f6ece88f84fed80238d",
+        "version": "5c86efa850712349e0169a5ff0d7e5958361bfdcb8fd68d18a538b5a6b8cdb61",
         "signature": "0ec2f7b6cd45e9cd2d0c4956df5432a8d170e220781d544e989bbaf7f53f1227",
         "affectsGlobalScope": false
       },
@@ -459,6 +459,11 @@
       "../../../node_modules/@types/geojson/index.d.ts": {
         "version": "acd447eb32b5d9d975f1bfb585a9706be51728d4bc24d3ccabafc8465cc621cf",
         "signature": "acd447eb32b5d9d975f1bfb585a9706be51728d4bc24d3ccabafc8465cc621cf",
+        "affectsGlobalScope": false
+      },
+      "../../../node_modules/@types/q/index.d.ts": {
+        "version": "f9a2dd6a6084665f093ed0e9664b8e673be2a45e342a59dd4e0e4e552e68a9ad",
+        "signature": "f9a2dd6a6084665f093ed0e9664b8e673be2a45e342a59dd4e0e4e552e68a9ad",
         "affectsGlobalScope": false
       }
     },
@@ -1260,6 +1265,14 @@
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/process.d.ts",
         "../../../node_modules/@types/node/stream.d.ts",
+        "../../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../../node_modules/@types/node/ts3.2/process.d.ts",
+        "../../../node_modules/@types/node/ts3.2/util.d.ts",
+        "../../../node_modules/@types/node/util.d.ts"
+      ],
+      "../../../node_modules/@types/q/index.d.ts": [
+        "../../../node_modules/@types/node/fs.d.ts",
+        "../../../node_modules/@types/node/process.d.ts",
         "../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../node_modules/@types/node/ts3.2/process.d.ts",
         "../../../node_modules/@types/node/ts3.2/util.d.ts",
@@ -2102,6 +2115,14 @@
         "../../../node_modules/@types/node/ts3.2/util.d.ts",
         "../../../node_modules/@types/node/util.d.ts"
       ],
+      "../../../node_modules/@types/q/index.d.ts": [
+        "../../../node_modules/@types/node/fs.d.ts",
+        "../../../node_modules/@types/node/process.d.ts",
+        "../../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../../node_modules/@types/node/ts3.2/process.d.ts",
+        "../../../node_modules/@types/node/ts3.2/util.d.ts",
+        "../../../node_modules/@types/node/util.d.ts"
+      ],
       "./declaration.d.ts": [
         "../../../node_modules/@types/node/fs.d.ts",
         "../../../node_modules/@types/node/process.d.ts",
@@ -2214,6 +2235,7 @@
       "../../../node_modules/@types/node/vm.d.ts",
       "../../../node_modules/@types/node/worker_threads.d.ts",
       "../../../node_modules/@types/node/zlib.d.ts",
+      "../../../node_modules/@types/q/index.d.ts",
       "./declaration.d.ts",
       "./funcjs/mailfunc.d.ts",
       "./funcjs/serverfunc.d.ts",

@@ -19,14 +19,26 @@ class whiteService{
 		let res = await dbSequelize.query(sql, {
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT
 		});
-		console.log(res);
 		for(let i of res){
-			let url = `http://${i['ip']}:${i['port']}/gmswap/mail`;
-			let { title, text, annex } = i;
-			annex.forEach(e => {
-				
-			});
-			console.log(i);
+			try{
+				let url = `http://${i['ip']}:${i['port']}/gmswap/mail`;
+			let { title, text, annex, roleid } = i;
+			let a = {};
+			for(let i of annex){
+				a[i.name] = i.number;
+			}
+			annex  = a;
+			let {data:CpRes} = await Cp.post(url, {roleid:[roleid], annex, title, text});
+			let sql = `
+				insert into gm_white_recording 
+				(roleid,serverid,white_user_id,sendtime,callback)
+				values
+				('${i['roleid']}','${i['serverid']}','${i['id']}','${dayjs(new Date()).format('YYYY-MM-DD HH:mm:ss')}','${JSON.stringify(CpRes)}')
+				`;
+		 		await	dbSequelize.query(sql);
+			}catch(e){
+				console.log(e);
+			}
 		}
 
 
