@@ -295,7 +295,7 @@ class ANNOService{
 		let sql = `  
 		select gm_announcement.* from gm_announcement,(select id from gm_game where game_name ='${gameName}' ) a  
 		where range = '1' and 
-		game_id = a.id   and  
+		game_id = a.id   and  status = '1' and 
 		now() +'8:00' BETWEEN sendtime and endtime`;
 		let a =  await dbSequelize.query(sql, {
 			replacements:['active'], type:Sequelize.QueryTypes.SELECT
