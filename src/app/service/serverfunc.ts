@@ -40,6 +40,7 @@ async function findAll(gameName:string,platform:string,channelNum:string,version
         else '4' end  
         as show_status   from zxc where zxc.test in (select * from ert ) 
              `;
+             console.log(sql)
     let res = await dbSequelize.query(sql, {
         replacements:['active'], type:"SELECT"
     });

@@ -167,7 +167,7 @@
         "affectsGlobalScope": false
       },
       "./serverfunc.ts": {
-        "version": "5c86efa850712349e0169a5ff0d7e5958361bfdcb8fd68d18a538b5a6b8cdb61",
+        "version": "59e995c59968319ae0cf06dfbcb44c7d1242d03199f5d0ec51a3b60d3afa9237",
         "signature": "0ec2f7b6cd45e9cd2d0c4956df5432a8d170e220781d544e989bbaf7f53f1227",
         "affectsGlobalScope": false
       },

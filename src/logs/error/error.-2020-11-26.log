@@ -1,0 +1,72 @@
+[2020-11-26T15:57:23.535] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll?channelNum=2000&versionId=1.3.1114.73755&platform=1&gameName=KOG%E6%B5%8B%E8%AF%95
+request client ip:  ::1
+request query:  {"channelNum":"2000","versionId":"1.3.1114.73755","platform":"1","gameName":"KOG测试"}
+response time: 1606377443535
+err name: SequelizeDatabaseError
+err message: operator does not exist: character varying = integer
+err stack: SequelizeDatabaseError: operator does not exist: character varying = integer
+    at Query.formatError (H:\致命代码\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\致命代码\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-11-26T15:57:23.608] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll?channelNum=2000&versionId=1.3.1114.73755&platform=1&gameName=KOG%E6%B5%8B%E8%AF%95
+request client ip:  ::1
+request query:  {"channelNum":"2000","versionId":"1.3.1114.73755","platform":"1","gameName":"KOG测试"}
+response time: 1606377443608
+err name: SequelizeDatabaseError
+err message: operator does not exist: character varying = integer
+err stack: SequelizeDatabaseError: operator does not exist: character varying = integer
+    at Query.formatError (H:\致命代码\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\致命代码\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-11-26T15:57:24.402] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/findAll?channelNum=2000&versionId=1.3.1114.73755&platform=1&gameName=KOG%E6%B5%8B%E8%AF%95
+request client ip:  ::1
+request query:  {"channelNum":"2000","versionId":"1.3.1114.73755","platform":"1","gameName":"KOG测试"}
+response time: 1606377444402
+err name: SequelizeDatabaseError
+err message: operator does not exist: character varying = integer
+err stack: SequelizeDatabaseError: operator does not exist: character varying = integer
+    at Query.formatError (H:\致命代码\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\致命代码\fancy-gm-cp\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\致命代码\fancy-gm-cp\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
