@@ -70,3 +70,27 @@ err stack: SequelizeDatabaseError: operator does not exist: character varying = 
     at processImmediate (internal/timers.js:456:21)
 *************** error log end ***************
 
+[2020-11-26T19:56:15.247] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?serverid=99991&channel=9991&roleid=299991&platform=1&key=9ADY9z0wgh&accountid=99991|1813234550
+request client ip:  ::1
+request query:  {"serverid":"99991","channel":"9991","roleid":"299991","platform":"1","key":"9ADY9z0wgh","accountid":"99991|1813234550"}
+response time: 1606391775246
+err name: undefined
+err message: 非此平台兑换key
+err stack: undefined
+*************** error log end ***************
+
+[2020-11-26T19:56:22.832] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/exchange?serverid=99991&channel=9991&roleid=299991&platform=1&key=9ADY9z0wgh&accountid=99991|1813234550
+request client ip:  ::1
+request query:  {"serverid":"99991","channel":"9991","roleid":"299991","platform":"1","key":"9ADY9z0wgh","accountid":"99991|1813234550"}
+response time: 1606391782832
+err name: undefined
+err message: 非此平台兑换key
+err stack: undefined
+*************** error log end ***************
+
