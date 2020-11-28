@@ -35,6 +35,7 @@ async function connectPgWithoutPool() {
 }
 
 function addJsons(name, datas) {
+	// var conStr = 'postgres://postgres:Ll789456@123.57.86.38:5432/xiaolu';
 	var conStr = 'postgres://postgres:Ll789456@127.0.0.1:5432/xiaolu';
 	var pgOpt = require('pg');
 	var client = new pgOpt.Client(conStr);

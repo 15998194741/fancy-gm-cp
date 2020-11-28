@@ -13,7 +13,7 @@ class whiteService{
 		let sql =  `
 		with qwe as (select a.id,a.roleid,b.title,b.text,b.annex,b.cycle,b.sendtype from gm_white_user a join gm_white_smtp b on a.smtp_id =b.id  where a.status = '1' and a.id = '${id}'  and b.id in (select smtp_id from gm_white_user where id = '${id}') ) ,
         asd as (select jsonb_array_elements(roleid) ->> 'id'  as roleid ,jsonb_array_elements(roleid) ->> 'serverid'  as serverid ,id from qwe  ),
-        zxc as (select asd.*,a.ip,a.port from asd  join gm_server a on a.serverid = asd.serverid where a.status = 1)
+        zxc as (select  DISTINCT asd.*,a.ip,a.port from asd  join gm_server a on a.serverid = asd.serverid where a.status = 1)
         select zxc.*,qwe.title,qwe.text,qwe.annex from zxc join qwe on qwe.id = zxc.id
 		`;
 		let res = await dbSequelize.query(sql, {
