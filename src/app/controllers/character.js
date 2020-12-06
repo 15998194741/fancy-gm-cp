@@ -20,6 +20,20 @@ export class charController {
 		ctx.body = statusCode.SUCCESS_200('查找成功', res);
 		return ctx.body;
 	}
-    
+	@router({ path: '/query', method: ['get']})
+	async query(ctx) {
+		let data = ctx.data;
+		let res = await CHARService.query(data);
+		ctx.body = statusCode.SUCCESS_200('查找成功', res);
+		return ctx.body;
+	}
+	
+    @router({ path: '/excelQuery', method: ['get']})
+	async excelQuery(ctx) {
+		let data = ctx.data;
+		let res = await CHARService.excelQuery(data);
+		ctx.body = statusCode.SUCCESS_200('查找成功', res);
+		return ctx.body;
+	}
 	
 }

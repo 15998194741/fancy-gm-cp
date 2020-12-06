@@ -3,8 +3,8 @@ const config = {
 	user:'postgres',
 	password:'Ll789456',
 	database:'xiaolu',
-	host:'127.0.0.1',
-	// host:'123.57.86.38',
+	// host:'127.0.0.1',
+	host:'123.57.86.38',
 	port:5432,
 	dialect: 'postgres',
 	// 扩展属性
